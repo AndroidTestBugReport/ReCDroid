@@ -37,8 +37,20 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 
 ### (2)Output test cases:
+```
+<step id="1"><currentClass>1</currentClass><subId>1</subId><androidid><ownid>2131689606</ownid><ownText>app.librenews.io.librenews:id/startLibreNews</ownText></androidid>
+<Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+ 
+<step id="2"><currentClass>2</currentClass><subId>5</subId><Actiontype>ClickList</Actiontype><Parameter>3</Parameter><clicktype>short</clicktype></step>
 
+<step id="3"><currentClass>3</currentClass><subId>4</subId><Actiontype>ClickList</Actiontype><Parameter>2</Parameter><clicktype>short</clicktype></step>
 
+<step id="4"><currentClass>4</currentClass><unExeID>1</unExeID><subID>1</subID><androidid><ownid>16908291</ownid><ownText>android:id/edit</ownText></androidid><Actiontype>EditText</Actiontype><typeWhat>xxyyzz</typeWhat></step>
+
+<step id="5"><currentClass>4</currentClass><subId>3</subId><androidid><ownid>16908313</ownid><ownText>android:id/button1</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+
+<step id="6"><currentClass>3</currentClass><subId>1</subId><androidid><ownid>2131689596</ownid><ownText>app.librenews.io.librenews:id/refresh_button</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+```
 
 
 
