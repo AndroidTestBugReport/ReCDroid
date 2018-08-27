@@ -6,12 +6,16 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 They are two was to use it.
 ### (1) Find all crashes
 Input: an android bug report and related apk.
+
 DeCDroid will explore the UI based on bug report.
+
 Output: all test cases which can trigger crash.
 
 ### (2) Find the specific crash
 Input: an android bug report, related apk, related error message.
+
 DeCDroid will explore the UI based on bug report.
+
 Output: a test case which can trigger crash with the input error message.
 
 All of outputs can be run in our tool directly.
