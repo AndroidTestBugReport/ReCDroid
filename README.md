@@ -40,8 +40,7 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 Output steps in run.xml: 
 
 ```
-<step id="1"><currentClass>1</currentClass><subId>1</subId><androidid><ownid>2131689606</ownid><ownText>app.librenews.io.librenews:id/startLibreNews</ownText></androidid>
-<Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+<step id="1"><currentClass>1</currentClass><subId>1</subId><androidid><ownid>2131689606</ownid><ownText>app.librenews.io.librenews:id/startLibreNews</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
  
 <step id="2"><currentClass>2</currentClass><subId>5</subId><Actiontype>ClickList</Actiontype><Parameter>3</Parameter><clicktype>short</clicktype></step>
 
