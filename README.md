@@ -31,7 +31,7 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 ### (1)Example video:
 
-`Exploration video`: example1-exploration.mkv
+`Exploration video`: <font color=red>example1-exploration.mkv</font>
 
 `Reproduce video`:  example2-runTestCase.mkv
 
