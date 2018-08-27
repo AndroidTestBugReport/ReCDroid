@@ -16,7 +16,7 @@ Output: a test case which can trigger crash with the input error message.
 
 All of outputs can be run in our tool directly.
 
-# 2. Example:
+## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
    Install v1.4 from FDroid.
    Launch app.
@@ -26,14 +26,14 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 
 
-## (1)Example video:
+### (1)Example video:
 
 Exploration video: example1-exploration.mkv
 
 Reproduce video:  example2-runTestCase.mkv
 
 
-## (2)Output test cases:
+### (2)Output test cases:
 
 
 
