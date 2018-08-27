@@ -31,7 +31,7 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 ### (1)Example video:
 
-`Exploration video`: <font color=red>example1-exploration.mkv</font>
+`Exploration video`: <font color=#0099ff>example1-exploration.mkv</font>
 
 `Reproduce video`:  example2-runTestCase.mkv
 
@@ -52,50 +52,6 @@ Output steps in run.xml:
 
 <step id="6"><currentClass>3</currentClass><subId>1</subId><androidid><ownid>2131689596</ownid><ownText>app.librenews.io.librenews:id/refresh_button</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
 ```
-
-Related information in record.xml: 
-```
-<ID id="4">
-      <Classname>MainFlashActivity</Classname>
-      <Easyoperate>
-        <runableID id="1">
-          <viewclass>android.widget.EditText</viewclass>
-          <androidid>
-            <ownid>16908291</ownid>
-            <ownText>android:id/edit</ownText>
-          </androidid>
-          <edittype>string</edittype>
-          <adjacyText>
-            <level1>
-              <ID0text />
-              <ID1text>https://librenews.io/api</ID1text>
-              <ID1textnlp>
-                <ID0>https://librenews.io/api</ID0>
-              </ID1textnlp>
-            </level1>
-            <level2 />
-            <level3 />
-          </adjacyText>
-          <viewtext>https://librenews.io/api</viewtext>
-          <focusable>true</focusable>
-          <viewtextnlp>
-            <ID0>https://librenews.io/api</ID0>
-          </viewtextnlp>
-        </runableID>
-        <runableID id="2">
-          <viewclass>android.support.v7.widget.AppCompatButton</viewclass>
-          <androidid>
-            <ownid>16908314</ownid>
-            <ownText>android:id/button2</ownText>
-          </androidid>
-          <viewtext>Cancel</viewtext>
-          <clicktype>short</clicktype>
-          <viewtextnlp>
-            <ID0>cancel</ID0>
-          </viewtextnlp>
-        </runableID>
-```
-
 
 There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be fixed in the future. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). Actiontype is the view type of the compontent. And there are some detailed parameters to active this action. 
 
