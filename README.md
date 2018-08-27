@@ -5,18 +5,18 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 ## 1. Usage:
 They are two was to use it.
 ### (1) Find all crashes
-Input: An android bug report and related apk.
+'Input': An android bug report and related apk.
 
-Exploration: Using NLP to process bug report and DFS to seach crashs.
+'Exploration': Using NLP to process bug report and DFS to seach crashs.
 
-Output: All test cases which can trigger crash.
+'Output': All test cases which can trigger crash.
 
 ### (2) Find the specific crash
-Input: An android bug report, related apk, related error message.
+'Input': An android bug report, related apk, related error message.
 
-Exploration: Using NLP to process bug report and DFS to seach the specifc crash.
+'Exploration': Using NLP to process bug report and DFS to seach the specifc crash.
 
-Output: A test case which can trigger crash with the input error message.
+'Output': A test case which can trigger crash with the input error message.
 
 All of outputs can be run in our tool directly.
 
@@ -32,9 +32,9 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 ### (1)Example video:
 
-Exploration video: example1-exploration.mkv
+Exploration video: 'example1-exploration.mkv'
 
-Reproduce video:  example2-runTestCase.mkv
+Reproduce video:  'example2-runTestCase.mkv'
 
 
 ### (2)Output test cases:
