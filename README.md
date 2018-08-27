@@ -37,6 +37,8 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 
 ### (2)Output test cases:
+Output steps in run.xml: 
+
 ```
 <step id="1"><currentClass>1</currentClass><subId>1</subId><androidid><ownid>2131689606</ownid><ownText>app.librenews.io.librenews:id/startLibreNews</ownText></androidid>
 <Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
@@ -51,6 +53,8 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 
 <step id="6"><currentClass>3</currentClass><subId>1</subId><androidid><ownid>2131689596</ownid><ownText>app.librenews.io.librenews:id/refresh_button</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
 ```
+
+There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is page ID, the detailed class information can be found in the record.xml file. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information can also be found in the record.xml. Actiontype is the view type of the compontent. And there some detailed parameters to active this action. 
 
 
 
