@@ -3,7 +3,7 @@
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
 ## 1. Usage:
-They are two was to use it.
+They are two ways to use it.
 ### (1) Find all crashes
 `Input`: An android bug report and related apk.
 
@@ -18,7 +18,7 @@ They are two was to use it.
 
 `Output`: A test case which can trigger crash with the input error message.
 
-All of outputs can be run in our tool directly.
+ReCDRoid can run test cases of output.
 
 ## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
