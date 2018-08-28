@@ -58,7 +58,7 @@ Output steps in run.xml:
 <step id="6"><currentClass>3</currentClass><subId>1</subId>...</step>
 ```
 
-There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be fixed in the future. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). Actiontype is the view type of the compontent. And there are some detailed parameters to active this action. 
+There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be updated in the next version. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). Actiontype is the view type of the compontent. And there are some detailed parameters to active this action. 
 
 
 
