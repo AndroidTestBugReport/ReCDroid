@@ -62,4 +62,4 @@ There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in 
 
 
 <font color=#00ffff size=72>color=#00ffff</font>
-
+<span style="color:blue">some *This is Blue italic.* text</span>
