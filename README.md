@@ -59,7 +59,7 @@ Output steps in run.xml:
 
 There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be updated in the next version. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
 
-### (3)Quick Start Example Project on this bug report
+### (3)Quick start example project
 You needs 3 steps to run this project on your computer.
 
 (1) Install android environment.
