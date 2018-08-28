@@ -69,6 +69,6 @@ You needs 5 steps to run this project on your computer.
 
 (3) open an android avd with port 5554 and android 4.4.2
 
-(4) download ReCDroid example project from Google file link(there is a 200MB word2vec library in it): https://drive.google.com/open?id=19iXoI_8QtQMKBheS8fHhABt7YCS3rayg
+(4) download ReCDroid Robotium example project from Google file link(there is a 200MB word2vec library in it): https://drive.google.com/open?id=19iXoI_8QtQMKBheS8fHhABt7YCS3rayg
 
 (5) run ReCDroid with percerun_LibreNews.sh in the folder.
