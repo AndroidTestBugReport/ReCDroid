@@ -1,0 +1,17 @@
+Please download the example project firstly
+
+
+Files:
+Source code file in this folder -> File in the example project
+BFScommander -> commander.jar
+BFS_androidtester -> BFE_androidtester.apk
+When compile it, please fill your apk's packagename and activityname into the source code. Robotium needs them.
+
+Two python files:
+pythonNLP.py -> pythonNLP.py   This file can handle the slot filling of bug report.
+pythonTrans.py -> pythonTrans.py   This file can process texts on dynamic page into suitable nlp format.
+Python project does not need to be compiled
+
+Two shell files:
+percerun_LibreNews.sh: Use to explore the pages and generate the test case. result.xml and record.xml are the outputs.
+runTestCase.sh: Use to run generated testcase.

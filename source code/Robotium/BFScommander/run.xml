@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Run>
+  <step id="1">
+    <graphclassfrom>firstrun</graphclassfrom>
+    <graphclassitem>firstun</graphclassitem>
+    <outputcurrent>yes</outputcurrent>
+    <action>
+      <classname>firstrun</classname>
+      <Actiontype>Noaction</Actiontype>
+    </action>
+  </step>
+</Run>
