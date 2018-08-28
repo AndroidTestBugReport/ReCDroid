@@ -22,15 +22,11 @@ ReCDRoid can run test cases of output.
 ## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fellow:
 
-   ##### Install v1.4 from FDroid.
-
-   ##### Launch app.
-   
-   ##### Disable automatically refresh
-   
-   ##### Change server address to an invalid one, e.g., xxyyzz.
-   
-   ##### Click refresh.
+- Install v1.4 from FDroid.
+- Launch app.
+- Disable automatically refresh
+- Change server address to an invalid one, e.g., xxyyzz.
+- Click refresh.
 
 
 
