@@ -20,17 +20,17 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 ReCDRoid can run test cases of output.
 
 ## 2. Example:
-A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
+A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fellow:
 
-   Install v1.4 from FDroid.
+   ##### Install v1.4 from FDroid.
 
-   Launch app.
+   ##### Launch app.
    
-   Disable automatically refresh
+   ##### Disable automatically refresh
    
-   Change server address to an invalid one, e.g., xxyyzz.
+   ##### Change server address to an invalid one, e.g., xxyyzz.
    
-   Click refresh.
+   ##### Click refresh.
 
 
 
