@@ -1,3 +1,4 @@
+
 # ReCDroid
 
 The ReCDRoid is an android project to reproduce android bugs from bug report.
@@ -63,3 +64,5 @@ There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in 
 
 <font color=#00ffff size=72>color=#00ffff</font>
 <span style="color:blue">some *This is Blue italic.* text</span>
+<span style=“color:green;”> text goes here</span>
+
