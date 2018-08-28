@@ -1,0 +1,20 @@
+Please download the example project firstly
+
+
+Files:
+Source code file in this folder -> File in the example project
+
+java file:
+BFScommander_ui -> commander.jar
+
+Two python files:
+pythonNLP.py -> pythonNLP.py   This file can handle the slot filling of bug report.
+pythonTrans_uiautomator.py -> pythonTrans_uiautomator.py   Please fill the package name of apk in it. This file can process texts on dynamic page into suitable nlp format.
+run.py -> run.py
+Python project does not need to be compiled
+
+One shell files:
+percerun_LibreNews.sh: Use to explore the pages and generate the test case. result.xml and record.xml are the outputs.
+Please change the package name and launched activity name in them.
+
+you can use Python run.py to run generated test case.

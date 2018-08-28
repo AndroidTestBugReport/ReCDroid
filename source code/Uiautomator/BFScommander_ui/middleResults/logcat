@@ -1,0 +1,637 @@
+--------- beginning of main
+D/AndroidRuntime( 4858): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4858): CheckJNI is ON
+E/memtrack( 4858): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4858): failed to load memtrack module: -2
+D/AndroidRuntime( 4858): Calling main entry com.android.commands.input.Input
+I/Input   ( 4858): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341316209, downTime=341316209, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi( 4806): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2310)
+I/Input   ( 4858): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341316209, downTime=341316209, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 4858): Shutting down VM
+W/InputEventReceiver( 4806): Attempted to finish an input event but the input event receiver has already been disposed.
+D/AndroidRuntime( 4870): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4870): CheckJNI is ON
+E/memtrack( 4870): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4870): failed to load memtrack module: -2
+D/AndroidRuntime( 4870): Calling main entry com.android.commands.pm.Pm
+--------- beginning of system
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10061 user=-1: uninstall pkg
+I/ActivityManager( 1489): Killing 4806:cz.romario.opensudoku/u0a61 (adj 0): stop cz.romario.opensudoku
+I/WindowState( 1489): WIN DEATH: Window{895d5cc u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity}
+W/ActivityManager( 1489): Force removing ActivityRecord{2b3459be u0 cz.romario.opensudoku/.gui.FolderListActivity t21}: app died, no saved state
+W/ActivityManager( 1489): Spurious death for ProcessRecord{13dac982 4806:cz.romario.opensudoku/u0a61}, curProc for 4806: null
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10061 user=0: pkg removed
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/VoicemailCleanupService( 3255): Cleaning up data for package: cz.romario.opensudoku
+I/art     ( 1852): Explicit concurrent mark sweep GC freed 822(33KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 18MB/22MB, paused 141us total 12.044ms
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=21_task.xml
+D/Documents( 4420): Update found 6 roots in 6ms
+I/LatinIME:LogUtils( 2030): Dictionary info: dictionary = main:en ; version = 47 ; date = 1402373178
+W/ContextImpl( 4065): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2609 
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 40344(2MB) AllocSpace objects, 4(64KB) LOS objects, 25% free, 11MB/15MB, paused 445us total 24.734ms
+I/art     ( 1489): WaitForGcToComplete blocked for 23.577ms for cause Explicit
+E/EGL_emulation( 2207): tid 2300: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer( 2207): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffea6545480, error=EGL_BAD_MATCH
+D/JobSchedulerService( 1489): Receieved: android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 1852): eglMakeCurrent: 0x7ffea657fde0: ver 2 0
+W/InputMethodManagerService( 1489): Got RemoteException sending setActive(false) notification to pid 4806 uid 10061
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 7936(325KB) AllocSpace objects, 1(28KB) LOS objects, 26% free, 11MB/15MB, paused 718us total 39.418ms
+I/art     ( 4870): System.exit called, status: 0
+I/AndroidRuntime( 4870): VM exiting with result code 0.
+D/AndroidRuntime( 4889): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4889): CheckJNI is ON
+E/memtrack( 4889): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4889): failed to load memtrack module: -2
+D/AndroidRuntime( 4889): Calling main entry com.android.commands.pm.Pm
+D/DefContainer( 2560): Copying /data/local/tmp/OpenSudoku.apk to base.apk
+D/PackageManager( 1489): Renaming /data/app/vmdl1603698543.tmp to /data/app/cz.romario.opensudoku-1
+I/PackageManager( 1489): Running dexopt on: /data/app/cz.romario.opensudoku-1/base.apk pkg=cz.romario.opensudoku isa=x86_64 vmSafeMode=false
+E/cutils-trace( 4900): Error opening trace file: Permission denied (13)
+I/dex2oat ( 4900): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/cz.romario.opensudoku-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86_64/data@app@cz.romario.opensudoku-1@base.apk@classes.dex --instruction-set=x86_64 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=11
+I/dex2oat ( 4900): Decided to run without swap.
+I/dex2oat ( 4900): dex2oat took 77.740ms (threads: 2) arena alloc=161KB java alloc=369KB native alloc=1484KB free=6MB
+V/BackupManagerService( 1489): restoreAtInstall pkg=cz.romario.opensudoku token=14 restoreSet=0
+V/BackupManagerService( 1489): Finishing install immediately
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+D/Documents( 4420): Update found 6 roots in 2ms
+W/Settings( 1489): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/BackupManagerService( 1489): Removing schedule queue dupe of cz.romario.opensudoku
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+W/VoiceInteractionManagerService( 1489): no available voice recognition services found for user 0
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 16614(1168KB) AllocSpace objects, 7(112KB) LOS objects, 26% free, 11MB/15MB, paused 145us total 13.743ms
+I/art     ( 4889): System.exit called, status: 0
+I/AndroidRuntime( 4889): VM exiting with result code 0.
+D/AndroidRuntime( 4907): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4907): CheckJNI is ON
+E/memtrack( 4907): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4907): failed to load memtrack module: -2
+D/AndroidRuntime( 4907): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10062 user=0: from pid 4907
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+I/ActivityManager( 1489): START u0 {flg=0x10000000 cmp=cz.romario.opensudoku/.gui.FolderListActivity} from uid 0 on display 0
+V/WindowManager( 1489): addAppToken: AppWindowToken{48a3689 token=Token{2e0fed90 ActivityRecord{14e39053 u0 cz.romario.opensudoku/.gui.FolderListActivity t22}}} to stack=1 task=22 at 0
+V/WindowManager( 1489): Adding window Window{226bdea8 u0 Starting cz.romario.opensudoku} at 2 of 8 (after Window{2c33c6f u0 com.android.launcher/com.android.launcher2.Launcher})
+D/AndroidRuntime( 4907): Shutting down VM
+I/art     ( 4918): Not late-enabling -Xcheck:jni (already on)
+I/ActivityManager( 1489): Start proc 4918:cz.romario.opensudoku/u0a62 for activity cz.romario.opensudoku/.gui.FolderListActivity
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+V/PhoneStatusBar( 1852): setLightsOn(true)
+I/WebViewFactory( 4918): Loading com.android.webview version 39 (4174727-x86_64) (code 300008)
+I/LibraryLoader( 4918): Time to load native libraries: 1 ms (timestamps 7739-7740)
+I/LibraryLoader( 4918): Expected native library version number "",actual native library version number ""
+V/WebViewChromiumFactoryProvider( 4918): Binding Chromium to main looper Looper (main, tid 1) {2b2da117}
+I/LibraryLoader( 4918): Expected native library version number "",actual native library version number ""
+I/chromium( 4918): [INFO:library_loader_hooks.cc(104)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserStartupController( 4918): Initializing chromium process, singleProcess=true
+W/art     ( 4918): Attempt to remove local handle scope entry from IRT, ignoring
+W/chromium( 4918): [WARNING:resource_bundle.cc(304)] locale_file_path.empty()
+I/chromium( 4918): [INFO:aw_browser_main_parts.cc(65)] Load from apk succesful, fd=34 off=46184 len=3037
+I/chromium( 4918): [INFO:aw_browser_main_parts.cc(78)] Loading webviewchromium.pak from, fd:35 off:229484 len:1089587
+W/AudioManagerAndroid( 4918): Requires BLUETOOTH permission
+D/        ( 4918): HostConnection::get() New Host Connection established 0x7ffea646c5c0, tid 4918
+W/        ( 4918): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+W/        ( 4918): Process pipe failed
+D/EGL_emulation( 4918): eglCreateContext: 0x7ffea64ef840: maj 2 min 0 rcv 2
+D/EGL_emulation( 4918): eglMakeCurrent: 0x7ffea64ef840: ver 2 0
+W/chromium( 4918): [WARNING:data_reduction_proxy_settings.cc(331)] SPDY proxy OFF at startup
+W/art     ( 4918): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents( 4918): onDetachedFromWindow called when already detached. Ignoring
+V/WindowManager( 1489): Adding window Window{3207b433 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 9 (before Window{226bdea8 u0 Starting cz.romario.opensudoku})
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=111, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["natural"], "jsonrpc": "2.0", "method": "setOrientation", "id": "5e5d005ab305adbb8a4b85c8f41cabe8"}}
+V/WindowManager( 1489): Adding window Window{29b1ad69 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 10 (before Window{3207b433 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity})
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 2027520
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+I/ActivityManager( 1489): Displayed cz.romario.opensudoku/.gui.FolderListActivity: +726ms
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/EGL_emulation( 1852): eglMakeCurrent: 0x7ffea657fde0: ver 2 0
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=80, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "wakeUp", "id": "b1a078db6ee94f300465d47653a4b08e"}}
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=117, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [true, null], "jsonrpc": "2.0", "method": "dumpWindowHierarchy", "id": "09bd3006b876cef8b285aee0ec85e661"}}
+I/chromium( 4918): [INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+I/chromium( 4918): id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(331, 523) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=112 value= url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> html_tag=#document doc_title= doc_url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> doc_mimetype=text/html name= doc_progress=1 doc_loaded=true child_ids=5,6,7,8,9,10
+I/chromium( 4918):   id=5 group READONLY (8, 8)-(315, 15) value= name= child_ids=12
+I/chromium( 4918):     id=12 staticText READONLY (8, 8)-(30, 15) value=1.1.2 display=inline name=
+I/chromium( 4918):   id=6 list READONLY (8, 36)-(315, 76) value= display=block html_tag=ul name= child_ids=13,14
+I/chromium( 4918):     id=13 listItem READONLY (48, 36)-(275, 46) value= display=list-item html_tag=li name= child_ids=15,16
+I/chromium( 4918):       id=15 listMarker READONLY VERTICAL (33, 36)-(6, 16) value=• name=
+I/chromium( 4918):       id=16 staticText READONLY (48, 36)-(273, 46) value=Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this). display=list-item name=
+I/chromium( 4918):     id=14 listItem READONLY (48, 81)-(275, 31) value= display=list-item html_tag=li name= child_ids=17,18
+I/chromium( 4918):       id=17 listMarker READONLY VERTICAL (33, 81)-(6, 16) value=• name=
+I/chromium( 4918):       id=18 staticText READONLY (48, 81)-(250, 31) value=OpenSudoku is now installed on SD card by default. display=list-item name=
+I/chromium( 4918):   id=7 group READONLY (8, 124)-(315, 16) value= name= child_ids=20
+I/chromium( 4918):     id=20 staticText READONLY (8, 124)-(30, 16) value=1.1.1 display=inline name=
+I/chromium( 4918):   id=8 list READONLY (8, 152)-(315, 106) value= display=block html_tag=ul name= child_ids=21,22,23,24
+I/chromium( 4918):     id=21 listItem READONLY (48, 152)-(275, 31) value= display=list-item html_tag=li name= child_ids=25,26
+I/chromium( 4918):       id=25 listMarker READONLY VERTICAL (33, 152)-(6, 16) value=• name=
+I/chromium( 4918):       id=26 staticText READONLY (48, 152)-(239, 31) value=Android 2.2 - move application to SD card support. display=list-item name=
+I/chromium( 4918):     id=22 listItem READONLY (48, 182)-(275, 31) value= display=list-item html_tag=li name= chil
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+I/AccessibilityNodeInfoDumper( 4301): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@82df; boundsInParent: Rect(40, 90 - 275, 106); boundsInScreen: Rect(311, 1791 - 1016, 1839); packageName: cz.romario.opensudoku; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: ; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null]
+D/AndroidRuntime( 4976): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4976): CheckJNI is ON
+E/memtrack( 4976): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4976): failed to load memtrack module: -2
+D/AndroidRuntime( 4976): Calling main entry com.android.commands.input.Input
+I/Input   ( 4976): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341326025, downTime=341326025, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi( 4918): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2310)
+I/Input   ( 4976): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341326025, downTime=341326025, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 4976): Shutting down VM
+W/InputEventReceiver( 4918): Attempted to finish an input event but the input event receiver has already been disposed.
+D/AndroidRuntime( 4987): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4987): CheckJNI is ON
+E/memtrack( 4987): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4987): failed to load memtrack module: -2
+D/AndroidRuntime( 4987): Calling main entry com.android.commands.input.Input
+I/Input   ( 4987): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 1327104
+E/EGL_emulation( 1124): tid 1124: eglCreateSyncKHR(1865): error 0x3004 (EGL_BAD_ATTRIBUTE)
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+I/Input   ( 4987): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 4918): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326302, downTime=341326301, deviceId=-1, source=0x101 }
+E/EGL_emulation( 2207): tid 2300: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer( 2207): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffea658c340, error=EGL_BAD_MATCH
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341326301, downTime=341326301, deviceId=-1, source=0x101 }
+D/EGL_emulation( 1852): eglMakeCurrent: 0x7ffea657fde0: ver 2 0
+D/AndroidRuntime( 4987): Shutting down VM
+D/AndroidRuntime( 4998): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4998): CheckJNI is ON
+E/memtrack( 4998): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4998): failed to load memtrack module: -2
+D/AndroidRuntime( 4998): Calling main entry com.android.commands.pm.Pm
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10062 user=-1: uninstall pkg
+I/ActivityManager( 1489): Killing 4918:cz.romario.opensudoku/u0a62 (adj 1): stop cz.romario.opensudoku
+W/InputDispatcher( 1489): channel '29b1ad69 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+E/InputDispatcher( 1489): channel '29b1ad69 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+I/WindowState( 1489): WIN DEATH: Window{29b1ad69 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity}
+W/InputDispatcher( 1489): Attempted to unregister already unregistered input channel '29b1ad69 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity (server)'
+W/art     ( 1489): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$MainHandler.handleMessage(android.os.Message) from ActivityManagerService.java:1550 waiters=0 for 429ms
+W/ActivityManager( 1489): Spurious death for ProcessRecord{243f8b7f 4918:cz.romario.opensudoku/u0a62}, curProc for 4918: null
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10062 user=0: pkg removed
+I/art     ( 1852): Explicit concurrent mark sweep GC freed 1324(53KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 18MB/22MB, paused 142us total 4.359ms
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 11444(759KB) AllocSpace objects, 4(64KB) LOS objects, 24% free, 12MB/16MB, paused 582us total 19.474ms
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=22_task.xml
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=22_task_thumbnail.png
+D/Documents( 4420): Update found 6 roots in 2ms
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+W/ContextImpl( 4065): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2609 
+I/LatinIME:LogUtils( 2030): Dictionary info: dictionary = main:en ; version = 47 ; date = 1402373178
+D/VoicemailCleanupService( 3255): Cleaning up data for package: cz.romario.opensudoku
+D/JobSchedulerService( 1489): Receieved: android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 6578(359KB) AllocSpace objects, 1(28KB) LOS objects, 24% free, 12MB/16MB, paused 788us total 30.505ms
+I/art     ( 4998): System.exit called, status: 0
+I/AndroidRuntime( 4998): VM exiting with result code 0.
+D/AndroidRuntime( 5016): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5016): CheckJNI is ON
+E/memtrack( 5016): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5016): failed to load memtrack module: -2
+D/AndroidRuntime( 5016): Calling main entry com.android.commands.pm.Pm
+D/DefContainer( 2560): Copying /data/local/tmp/OpenSudoku.apk to base.apk
+D/PackageManager( 1489): Renaming /data/app/vmdl1301018192.tmp to /data/app/cz.romario.opensudoku-1
+I/PackageManager( 1489): Running dexopt on: /data/app/cz.romario.opensudoku-1/base.apk pkg=cz.romario.opensudoku isa=x86_64 vmSafeMode=false
+E/cutils-trace( 5027): Error opening trace file: Permission denied (13)
+I/dex2oat ( 5027): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/cz.romario.opensudoku-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86_64/data@app@cz.romario.opensudoku-1@base.apk@classes.dex --instruction-set=x86_64 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=11
+I/dex2oat ( 5027): Decided to run without swap.
+I/dex2oat ( 5027): dex2oat took 85.290ms (threads: 2) arena alloc=83KB java alloc=369KB native alloc=1471KB free=6MB
+V/BackupManagerService( 1489): restoreAtInstall pkg=cz.romario.opensudoku token=15 restoreSet=0
+V/BackupManagerService( 1489): Finishing install immediately
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/Settings( 1489): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+D/Documents( 4420): Update found 6 roots in 3ms
+W/BackupManagerService( 1489): Removing schedule queue dupe of cz.romario.opensudoku
+W/VoiceInteractionManagerService( 1489): no available voice recognition services found for user 0
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 17320(1241KB) AllocSpace objects, 9(1424KB) LOS objects, 26% free, 11MB/15MB, paused 244us total 25.100ms
+I/art     ( 5016): System.exit called, status: 0
+I/AndroidRuntime( 5016): VM exiting with result code 0.
+D/AndroidRuntime( 5034): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5034): CheckJNI is ON
+E/memtrack( 5034): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5034): failed to load memtrack module: -2
+D/AndroidRuntime( 5034): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10063 user=0: from pid 5034
+I/ActivityManager( 1489): START u0 {flg=0x10000000 cmp=cz.romario.opensudoku/.gui.FolderListActivity} from uid 0 on display 0
+V/WindowManager( 1489): addAppToken: AppWindowToken{16b8bf5e token=Token{39f47099 ActivityRecord{19d585e0 u0 cz.romario.opensudoku/.gui.FolderListActivity t23}}} to stack=1 task=23 at 0
+D/AndroidRuntime( 5034): Shutting down VM
+V/WindowManager( 1489): Adding window Window{1eca99d1 u0 Starting cz.romario.opensudoku} at 2 of 8 (after Window{2c33c6f u0 com.android.launcher/com.android.launcher2.Launcher})
+I/art     ( 5045): Not late-enabling -Xcheck:jni (already on)
+I/ActivityManager( 1489): Start proc 5045:cz.romario.opensudoku/u0a63 for activity cz.romario.opensudoku/.gui.FolderListActivity
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+V/PhoneStatusBar( 1852): setLightsOn(true)
+I/WebViewFactory( 5045): Loading com.android.webview version 39 (4174727-x86_64) (code 300008)
+I/LibraryLoader( 5045): Time to load native libraries: 1 ms (timestamps 8237-8238)
+I/LibraryLoader( 5045): Expected native library version number "",actual native library version number ""
+V/WebViewChromiumFactoryProvider( 5045): Binding Chromium to main looper Looper (main, tid 1) {2b2da117}
+I/LibraryLoader( 5045): Expected native library version number "",actual native library version number ""
+I/chromium( 5045): [INFO:library_loader_hooks.cc(104)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserStartupController( 5045): Initializing chromium process, singleProcess=true
+W/art     ( 5045): Attempt to remove local handle scope entry from IRT, ignoring
+W/chromium( 5045): [WARNING:resource_bundle.cc(304)] locale_file_path.empty()
+I/chromium( 5045): [INFO:aw_browser_main_parts.cc(65)] Load from apk succesful, fd=34 off=46184 len=3037
+I/chromium( 5045): [INFO:aw_browser_main_parts.cc(78)] Loading webviewchromium.pak from, fd:35 off:229484 len:1089587
+W/AudioManagerAndroid( 5045): Requires BLUETOOTH permission
+D/        ( 5045): HostConnection::get() New Host Connection established 0x7ffea6469400, tid 5045
+W/        ( 5045): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+W/        ( 5045): Process pipe failed
+D/EGL_emulation( 5045): eglCreateContext: 0x7ffea6487ca0: maj 2 min 0 rcv 2
+D/EGL_emulation( 5045): eglMakeCurrent: 0x7ffea6487ca0: ver 2 0
+W/chromium( 5045): [WARNING:data_reduction_proxy_settings.cc(331)] SPDY proxy OFF at startup
+W/art     ( 5045): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents( 5045): onDetachedFromWindow called when already detached. Ignoring
+V/WindowManager( 1489): Adding window Window{5797440 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 9 (before Window{1eca99d1 u0 Starting cz.romario.opensudoku})
+V/WindowManager( 1489): Adding window Window{331b44be u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 10 (before Window{5797440 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity})
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 2027520
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=111, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["natural"], "jsonrpc": "2.0", "method": "setOrientation", "id": "3022cb6e3f198a10bd1884f539e0d67d"}}
+I/ActivityManager( 1489): Displayed cz.romario.opensudoku/.gui.FolderListActivity: +576ms
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=80, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "wakeUp", "id": "dde4acb9c201d7abbf35cbd013a4f3e7"}}
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=173, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "text": "Close", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "click", "id": "ae18221f189689e3d8b6e0476d56c960"}}
+I/chromium( 5045): [INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+I/chromium( 5045): id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(331, 523) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=112 value= url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> html_tag=#document doc_title= doc_url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> doc_mimetype=text/html name= doc_progress=1 doc_loaded=true child_ids=5,6,7,8,9,10
+I/chromium( 5045):   id=5 group READONLY (8, 8)-(315, 15) value= name= child_ids=12
+I/chromium( 5045):     id=12 staticText READONLY (8, 8)-(30, 15) value=1.1.2 display=inline name=
+I/chromium( 5045):   id=6 list READONLY (8, 36)-(315, 76) value= display=block html_tag=ul name= child_ids=13,14
+I/chromium( 5045):     id=13 listItem READONLY (48, 36)-(275, 46) value= display=list-item html_tag=li name= child_ids=15,16
+I/chromium( 5045):       id=15 listMarker READONLY VERTICAL (33, 36)-(6, 16) value=• name=
+I/chromium( 5045):       id=16 staticText READONLY (48, 36)-(273, 46) value=Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this). display=list-item name=
+I/chromium( 5045):     id=14 listItem READONLY (48, 81)-(275, 31) value= display=list-item html_tag=li name= child_ids=17,18
+I/chromium( 5045):       id=17 listMarker READONLY VERTICAL (33, 81)-(6, 16) value=• name=
+I/chromium( 5045):       id=18 staticText READONLY (48, 81)-(250, 31) value=OpenSudoku is now installed on SD card by default. display=list-item name=
+I/chromium( 5045):   id=7 group READONLY (8, 124)-(315, 16) value= name= child_ids=20
+I/chromium( 5045):     id=20 staticText READONLY (8, 124)-(30, 16) value=1.1.1 display=inline name=
+I/chromium( 5045):   id=8 list READONLY (8, 152)-(315, 106) value= display=block html_tag=ul name= child_ids=21,22,23,24
+I/chromium( 5045):     id=21 listItem READONLY (48, 152)-(275, 31) value= display=list-item html_tag=li name= child_ids=25,26
+I/chromium( 5045):       id=25 listMarker READONLY VERTICAL (33, 152)-(6, 16) value=• name=
+I/chromium( 5045):       id=26 staticText READONLY (48, 152)-(239, 31) value=Android 2.2 - move application to SD card support. display=list-item name=
+I/chromium( 5045):     id=22 listItem READONLY (48, 182)-(275, 31) value= display=list-item html_tag=li name= chil
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+W/AudioTrack( 1489): AUDIO_OUTPUT_FLAG_FAST denied by client
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=117, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [true, null], "jsonrpc": "2.0", "method": "dumpWindowHierarchy", "id": "5d1e4000e2f0b3fb7f8729cdaf3820ee"}}
+D/AndroidRuntime( 5106): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5106): CheckJNI is ON
+E/memtrack( 5106): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5106): failed to load memtrack module: -2
+D/AndroidRuntime( 5106): Calling main entry com.android.commands.input.Input
+I/Input   ( 5106): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 1327104
+D/        ( 1489): HostConnection::get() New Host Connection established 0x7ffea64a7190, tid 1746
+W/        ( 1489): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+E/EGL_emulation( 1124): tid 1124: eglCreateSyncKHR(1865): error 0x3004 (EGL_BAD_ATTRIBUTE)
+I/Input   ( 5106): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5045): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336994, downTime=341336993, deviceId=-1, source=0x101 }
+E/EGL_emulation( 2207): tid 2300: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer( 2207): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffea6648900, error=EGL_BAD_MATCH
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341336993, downTime=341336993, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 5106): Shutting down VM
+D/AndroidRuntime( 5117): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5117): CheckJNI is ON
+E/memtrack( 5117): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5117): failed to load memtrack module: -2
+D/AndroidRuntime( 5117): Calling main entry com.android.commands.input.Input
+I/Input   ( 5117): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341337401, downTime=341337401, deviceId=-1, source=0x101 }
+I/Input   ( 5117): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341337401, downTime=341337401, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 5117): Shutting down VM
+D/AndroidRuntime( 5128): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5128): CheckJNI is ON
+E/memtrack( 5128): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5128): failed to load memtrack module: -2
+D/AndroidRuntime( 5128): Calling main entry com.android.commands.pm.Pm
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10063 user=-1: uninstall pkg
+I/ActivityManager( 1489): Killing 5045:cz.romario.opensudoku/u0a63 (adj 9): stop cz.romario.opensudoku
+I/WindowState( 1489): WIN DEATH: Window{331b44be u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity EXITING}
+W/ActivityManager( 1489): Spurious death for ProcessRecord{1479c80f 5045:cz.romario.opensudoku/u0a63}, curProc for 5045: null
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10063 user=0: pkg removed
+I/art     ( 1852): Explicit concurrent mark sweep GC freed 1398(54KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 18MB/22MB, paused 186us total 8.452ms
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 11755(756KB) AllocSpace objects, 5(80KB) LOS objects, 24% free, 12MB/16MB, paused 1.072ms total 20.321ms
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/Documents( 4420): Update found 6 roots in 3ms
+D/JobSchedulerService( 1489): Receieved: android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+W/ContextImpl( 4065): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2609 
+I/LatinIME:LogUtils( 2030): Dictionary info: dictionary = main:en ; version = 47 ; date = 1402373178
+D/VoicemailCleanupService( 3255): Cleaning up data for package: cz.romario.opensudoku
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=23_task.xml
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=23_task_thumbnail.png
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 6059(328KB) AllocSpace objects, 1(28KB) LOS objects, 24% free, 12MB/16MB, paused 250us total 38.164ms
+I/art     ( 5128): System.exit called, status: 0
+I/AndroidRuntime( 5128): VM exiting with result code 0.
+D/AndroidRuntime( 5147): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5147): CheckJNI is ON
+E/memtrack( 5147): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5147): failed to load memtrack module: -2
+D/AndroidRuntime( 5147): Calling main entry com.android.commands.pm.Pm
+D/DefContainer( 2560): Copying /data/local/tmp/OpenSudoku.apk to base.apk
+D/PackageManager( 1489): Renaming /data/app/vmdl1493785012.tmp to /data/app/cz.romario.opensudoku-1
+I/PackageManager( 1489): Running dexopt on: /data/app/cz.romario.opensudoku-1/base.apk pkg=cz.romario.opensudoku isa=x86_64 vmSafeMode=false
+E/cutils-trace( 5158): Error opening trace file: Permission denied (13)
+I/dex2oat ( 5158): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/cz.romario.opensudoku-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86_64/data@app@cz.romario.opensudoku-1@base.apk@classes.dex --instruction-set=x86_64 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=11
+I/dex2oat ( 5158): Decided to run without swap.
+I/dex2oat ( 5158): dex2oat took 92.135ms (threads: 2) arena alloc=82KB java alloc=366KB native alloc=1487KB free=6MB
+V/BackupManagerService( 1489): restoreAtInstall pkg=cz.romario.opensudoku token=16 restoreSet=0
+V/BackupManagerService( 1489): Finishing install immediately
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+W/BackupManagerService( 1489): Removing schedule queue dupe of cz.romario.opensudoku
+D/Documents( 4420): Update found 6 roots in 2ms
+W/Settings( 1489): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/VoiceInteractionManagerService( 1489): no available voice recognition services found for user 0
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 17839(1272KB) AllocSpace objects, 8(128KB) LOS objects, 24% free, 12MB/16MB, paused 290us total 22.256ms
+I/art     ( 5147): System.exit called, status: 0
+I/AndroidRuntime( 5147): VM exiting with result code 0.
+D/AndroidRuntime( 5165): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5165): CheckJNI is ON
+E/memtrack( 5165): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5165): failed to load memtrack module: -2
+D/AndroidRuntime( 5165): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10064 user=0: from pid 5165
+I/ActivityManager( 1489): START u0 {flg=0x10000000 cmp=cz.romario.opensudoku/.gui.FolderListActivity} from uid 0 on display 0
+V/WindowManager( 1489): addAppToken: AppWindowToken{2598465 token=Token{294e995c ActivityRecord{abd9bcf u0 cz.romario.opensudoku/.gui.FolderListActivity t24}}} to stack=1 task=24 at 0
+V/WindowManager( 1489): Adding window Window{2042b7f4 u0 Starting cz.romario.opensudoku} at 2 of 8 (after Window{2c33c6f u0 com.android.launcher/com.android.launcher2.Launcher})
+D/AndroidRuntime( 5165): Shutting down VM
+I/art     ( 5176): Not late-enabling -Xcheck:jni (already on)
+I/ActivityManager( 1489): Start proc 5176:cz.romario.opensudoku/u0a64 for activity cz.romario.opensudoku/.gui.FolderListActivity
+E/art     ( 5176): Failed writing handshake bytes (-1 of 14): Broken pipe
+I/art     ( 5176): Debugger is no longer active
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+V/PhoneStatusBar( 1852): setLightsOn(true)
+I/WebViewFactory( 5176): Loading com.android.webview version 39 (4174727-x86_64) (code 300008)
+I/LibraryLoader( 5176): Time to load native libraries: 0 ms (timestamps 9014-9014)
+I/LibraryLoader( 5176): Expected native library version number "",actual native library version number ""
+V/WebViewChromiumFactoryProvider( 5176): Binding Chromium to main looper Looper (main, tid 1) {33f75196}
+I/LibraryLoader( 5176): Expected native library version number "",actual native library version number ""
+I/chromium( 5176): [INFO:library_loader_hooks.cc(104)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserStartupController( 5176): Initializing chromium process, singleProcess=true
+W/art     ( 5176): Attempt to remove local handle scope entry from IRT, ignoring
+W/chromium( 5176): [WARNING:resource_bundle.cc(304)] locale_file_path.empty()
+W/AudioManagerAndroid( 5176): Requires BLUETOOTH permission
+I/chromium( 5176): [INFO:aw_browser_main_parts.cc(65)] Load from apk succesful, fd=33 off=46184 len=3037
+I/chromium( 5176): [INFO:aw_browser_main_parts.cc(78)] Loading webviewchromium.pak from, fd:34 off:229484 len:1089587
+D/        ( 5176): HostConnection::get() New Host Connection established 0x7ffea646c400, tid 5176
+W/        ( 5176): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+W/        ( 5176): Process pipe failed
+D/EGL_emulation( 5176): eglCreateContext: 0x7ffea648af20: maj 2 min 0 rcv 2
+D/EGL_emulation( 5176): eglMakeCurrent: 0x7ffea648af20: ver 2 0
+W/chromium( 5176): [WARNING:data_reduction_proxy_settings.cc(331)] SPDY proxy OFF at startup
+W/art     ( 5176): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents( 5176): onDetachedFromWindow called when already detached. Ignoring
+V/WindowManager( 1489): Adding window Window{2152daf u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 9 (before Window{2042b7f4 u0 Starting cz.romario.opensudoku})
+V/WindowManager( 1489): Adding window Window{32c51945 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 10 (before Window{2152daf u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity})
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 2027520
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=111, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["natural"], "jsonrpc": "2.0", "method": "setOrientation", "id": "4f7a3d68f5a9d4eb13cdb498989cf653"}}
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+I/ActivityManager( 1489): Displayed cz.romario.opensudoku/.gui.FolderListActivity: +673ms
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=80, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "wakeUp", "id": "4ab8e577b39b375be48cfa42faf904e3"}}
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=101, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [543, 705], "jsonrpc": "2.0", "method": "click", "id": "6fd95c5ed5359675150c754ce3495bc4"}}
+D/InteractionController( 4301): clickNoSync (543, 705)
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=117, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [true, null], "jsonrpc": "2.0", "method": "dumpWindowHierarchy", "id": "3f57192f60ac445fe271f9d2c4c8cd8e"}}
+I/chromium( 5176): [INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+I/chromium( 5176): id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(331, 523) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=112 value= url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> html_tag=#document doc_title= doc_url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> doc_mimetype=text/html name= doc_progress=1 doc_loaded=true child_ids=5,6,7,8,9,10
+I/chromium( 5176):   id=5 group READONLY (8, 8)-(315, 15) value= name= child_ids=12
+I/chromium( 5176):     id=12 staticText READONLY (8, 8)-(30, 15) value=1.1.2 display=inline name=
+I/chromium( 5176):   id=6 list READONLY (8, 36)-(315, 76) value= display=block html_tag=ul name= child_ids=13,14
+I/chromium( 5176):     id=13 listItem READONLY (48, 36)-(275, 46) value= display=list-item html_tag=li name= child_ids=15,16
+I/chromium( 5176):       id=15 listMarker READONLY VERTICAL (33, 36)-(6, 16) value=• name=
+I/chromium( 5176):       id=16 staticText READONLY (48, 36)-(273, 46) value=Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this). display=list-item name=
+I/chromium( 5176):     id=14 listItem READONLY (48, 81)-(275, 31) value= display=list-item html_tag=li name= child_ids=17,18
+I/chromium( 5176):       id=17 listMarker READONLY VERTICAL (33, 81)-(6, 16) value=• name=
+I/chromium( 5176):       id=18 staticText READONLY (48, 81)-(250, 31) value=OpenSudoku is now installed on SD card by default. display=list-item name=
+I/chromium( 5176):   id=7 group READONLY (8, 124)-(315, 16) value= name= child_ids=20
+I/chromium( 5176):     id=20 staticText READONLY (8, 124)-(30, 16) value=1.1.1 display=inline name=
+I/chromium( 5176):   id=8 list READONLY (8, 152)-(315, 106) value= display=block html_tag=ul name= child_ids=21,22,23,24
+I/chromium( 5176):     id=21 listItem READONLY (48, 152)-(275, 31) value= display=list-item html_tag=li name= child_ids=25,26
+I/chromium( 5176):       id=25 listMarker READONLY VERTICAL (33, 152)-(6, 16) value=• name=
+I/chromium( 5176):       id=26 staticText READONLY (48, 152)-(239, 31) value=Android 2.2 - move application to SD card support. display=list-item name=
+I/chromium( 5176):     id=22 listItem READONLY (48, 182)-(275, 31) value= display=list-item html_tag=li name= chil
+D/AndroidRuntime( 5235): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5235): CheckJNI is ON
+E/memtrack( 5235): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5235): failed to load memtrack module: -2
+D/AndroidRuntime( 5235): Calling main entry com.android.commands.input.Input
+I/Input   ( 5235): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341347182, downTime=341347182, deviceId=-1, source=0x101 }
+W/UnimplementedWebViewApi( 5176): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2310)
+I/Input   ( 5235): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341347182, downTime=341347182, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 5235): Shutting down VM
+W/InputEventReceiver( 5176): Attempted to finish an input event but the input event receiver has already been disposed.
+D/AndroidRuntime( 5246): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5246): CheckJNI is ON
+E/memtrack( 5246): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5246): failed to load memtrack module: -2
+D/AndroidRuntime( 5246): Calling main entry com.android.commands.input.Input
+I/Input   ( 5246): injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 1327104
+D/        ( 1489): HostConnection::get() New Host Connection established 0x7ffe9861a350, tid 4388
+W/        ( 1489): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+E/EGL_emulation( 1124): tid 1124: eglCreateSyncKHR(1865): error 0x3004 (EGL_BAD_ATTRIBUTE)
+I/Input   ( 5246): injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 5176): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347462, downTime=341347460, deviceId=-1, source=0x101 }
+E/EGL_emulation( 2207): tid 2300: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+W/OpenGLRenderer( 2207): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffea6448740, error=EGL_BAD_MATCH
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+W/ViewRootImpl( 2207): Cancelling event due to no window focus: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_BACK, scanCode=0, metaState=0, flags=0x20, repeatCount=0, eventTime=341347460, downTime=341347460, deviceId=-1, source=0x101 }
+D/AndroidRuntime( 5246): Shutting down VM
+D/AndroidRuntime( 5257): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5257): CheckJNI is ON
+E/memtrack( 5257): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5257): failed to load memtrack module: -2
+D/AndroidRuntime( 5257): Calling main entry com.android.commands.pm.Pm
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10064 user=-1: uninstall pkg
+I/ActivityManager( 1489): Killing 5176:cz.romario.opensudoku/u0a64 (adj 1): stop cz.romario.opensudoku
+I/WindowState( 1489): WIN DEATH: Window{32c51945 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity EXITING}
+W/ActivityManager( 1489): Spurious death for ProcessRecord{1aaee7bb 5176:cz.romario.opensudoku/u0a64}, curProc for 5176: null
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10064 user=0: pkg removed
+I/art     ( 1852): Explicit concurrent mark sweep GC freed 750(30KB) AllocSpace objects, 0(0B) LOS objects, 17% free, 18MB/22MB, paused 224us total 7.541ms
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/Documents( 4420): Update found 6 roots in 0ms
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 11307(729KB) AllocSpace objects, 5(1360KB) LOS objects, 24% free, 12MB/16MB, paused 141us total 13.249ms
+W/ContextImpl( 4065): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1692 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2609 
+I/LatinIME:LogUtils( 2030): Dictionary info: dictionary = main:en ; version = 47 ; date = 1402373178
+D/VoicemailCleanupService( 3255): Cleaning up data for package: cz.romario.opensudoku
+D/JobSchedulerService( 1489): Receieved: android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=24_task.xml
+D/TaskPersister( 1489): removeObsoleteFile: deleting file=24_task_thumbnail.png
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 6348(343KB) AllocSpace objects, 1(28KB) LOS objects, 24% free, 12MB/16MB, paused 399us total 22.443ms
+I/art     ( 5257): System.exit called, status: 0
+I/AndroidRuntime( 5257): VM exiting with result code 0.
+D/AndroidRuntime( 5275): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5275): CheckJNI is ON
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+E/memtrack( 5275): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5275): failed to load memtrack module: -2
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer( 2207): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+D/AndroidRuntime( 5275): Calling main entry com.android.commands.pm.Pm
+D/DefContainer( 2560): Copying /data/local/tmp/OpenSudoku.apk to base.apk
+D/PackageManager( 1489): Renaming /data/app/vmdl1287543339.tmp to /data/app/cz.romario.opensudoku-1
+I/PackageManager( 1489): Running dexopt on: /data/app/cz.romario.opensudoku-1/base.apk pkg=cz.romario.opensudoku isa=x86_64 vmSafeMode=false
+E/cutils-trace( 5286): Error opening trace file: Permission denied (13)
+I/dex2oat ( 5286): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/cz.romario.opensudoku-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86_64/data@app@cz.romario.opensudoku-1@base.apk@classes.dex --instruction-set=x86_64 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=11
+I/dex2oat ( 5286): Decided to run without swap.
+I/dex2oat ( 5286): dex2oat took 79.250ms (threads: 2) arena alloc=83KB java alloc=369KB native alloc=1486KB free=6MB
+V/BackupManagerService( 1489): restoreAtInstall pkg=cz.romario.opensudoku token=17 restoreSet=0
+V/BackupManagerService( 1489): Finishing install immediately
+I/InputReader( 1489): Reconfiguring input devices.  changes=0x00000010
+D/BackupManagerService( 1489): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:cz.romario.opensudoku flg=0x4000010 (has extras) }
+D/Documents( 4420): Update found 6 roots in 2ms
+W/BackupManagerService( 1489): Removing schedule queue dupe of cz.romario.opensudoku
+W/Settings( 1489): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+W/VoiceInteractionManagerService( 1489): no available voice recognition services found for user 0
+I/art     ( 1489): Explicit concurrent mark sweep GC freed 17516(1232KB) AllocSpace objects, 7(112KB) LOS objects, 24% free, 12MB/16MB, paused 125us total 12.373ms
+I/art     ( 5275): System.exit called, status: 0
+I/AndroidRuntime( 5275): VM exiting with result code 0.
+D/AndroidRuntime( 5293): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 5293): CheckJNI is ON
+E/memtrack( 5293): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 5293): failed to load memtrack module: -2
+D/AndroidRuntime( 5293): Calling main entry com.android.commands.am.Am
+I/ActivityManager( 1489): Force stopping cz.romario.opensudoku appid=10065 user=0: from pid 5293
+I/ActivityManager( 1489): START u0 {flg=0x10000000 cmp=cz.romario.opensudoku/.gui.FolderListActivity} from uid 0 on display 0
+V/WindowManager( 1489): addAppToken: AppWindowToken{1a381998 token=Token{22f0477b ActivityRecord{18c4c30a u0 cz.romario.opensudoku/.gui.FolderListActivity t25}}} to stack=1 task=25 at 0
+V/WindowManager( 1489): Adding window Window{68a2af3 u0 Starting cz.romario.opensudoku} at 2 of 8 (after Window{2c33c6f u0 com.android.launcher/com.android.launcher2.Launcher})
+D/AndroidRuntime( 5293): Shutting down VM
+I/art     ( 5304): Not late-enabling -Xcheck:jni (already on)
+I/ActivityManager( 1489): Start proc 5304:cz.romario.opensudoku/u0a65 for activity cz.romario.opensudoku/.gui.FolderListActivity
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/EGL_emulation( 2207): eglMakeCurrent: 0x7ffea98e70c0: ver 2 0
+V/PhoneStatusBar( 1852): setLightsOn(true)
+I/WebViewFactory( 5304): Loading com.android.webview version 39 (4174727-x86_64) (code 300008)
+I/LibraryLoader( 5304): Time to load native libraries: 1 ms (timestamps 9086-9087)
+I/LibraryLoader( 5304): Expected native library version number "",actual native library version number ""
+V/WebViewChromiumFactoryProvider( 5304): Binding Chromium to main looper Looper (main, tid 1) {2b2da117}
+I/LibraryLoader( 5304): Expected native library version number "",actual native library version number ""
+I/chromium( 5304): [INFO:library_loader_hooks.cc(104)] Chromium logging enabled: level = 0, default verbosity = 0
+I/BrowserStartupController( 5304): Initializing chromium process, singleProcess=true
+W/art     ( 5304): Attempt to remove local handle scope entry from IRT, ignoring
+W/chromium( 5304): [WARNING:resource_bundle.cc(304)] locale_file_path.empty()
+I/chromium( 5304): [INFO:aw_browser_main_parts.cc(65)] Load from apk succesful, fd=34 off=46184 len=3037
+I/chromium( 5304): [INFO:aw_browser_main_parts.cc(78)] Loading webviewchromium.pak from, fd:35 off:229484 len:1089587
+W/AudioManagerAndroid( 5304): Requires BLUETOOTH permission
+D/        ( 5304): HostConnection::get() New Host Connection established 0x7ffea6469400, tid 5304
+W/        ( 5304): Unrecognized GLES max version string in extensions: ANDROID_EMU_CHECKSUM_HELPER_v1 
+W/        ( 5304): Process pipe failed
+D/EGL_emulation( 5304): eglCreateContext: 0x7ffea6487ca0: maj 2 min 0 rcv 2
+D/EGL_emulation( 5304): eglMakeCurrent: 0x7ffea6487ca0: ver 2 0
+W/chromium( 5304): [WARNING:data_reduction_proxy_settings.cc(331)] SPDY proxy OFF at startup
+W/art     ( 5304): Attempt to remove local handle scope entry from IRT, ignoring
+W/AwContents( 5304): onDetachedFromWindow called when already detached. Ignoring
+V/WindowManager( 1489): Adding window Window{385a8e6a u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 9 (before Window{68a2af3 u0 Starting cz.romario.opensudoku})
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=111, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["natural"], "jsonrpc": "2.0", "method": "setOrientation", "id": "5fbbf105359a71f254c38d3af6877ee9"}}
+V/WindowManager( 1489): Adding window Window{1dc043f8 u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity} at 2 of 10 (before Window{385a8e6a u0 cz.romario.opensudoku/cz.romario.opensudoku.gui.FolderListActivity})
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 2027520
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+I/ActivityManager( 1489): Displayed cz.romario.opensudoku/.gui.FolderListActivity: +686ms
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7352320
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=80, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "wakeUp", "id": "3d04c9b45fd8d167ef339e0d2c27496a"}}
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=102, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [543, 1146], "jsonrpc": "2.0", "method": "click", "id": "c737c06a9c2719117c0e9a5ac542983f"}}
+D/InteractionController( 4301): clickNoSync (543, 1146)
+D/gralloc_ranchu( 1124): gralloc_alloc: Creating ashmem region of size 7675904
+D/UIAutomatorStub( 4301): URI: /jsonrpc/0, Method: POST, Header: {host=localhost:9009, accept-encoding=identity, http-client-ip=127.0.0.1, content-type=application/json, content-length=117, remote-addr=127.0.0.1, user-agent=Python-urllib/2.7, connection=close}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [true, null], "jsonrpc": "2.0", "method": "dumpWindowHierarchy", "id": "e18c130ceeeb22816440ce331b534820"}}
+I/chromium( 5304): [INFO:renderer_accessibility_complete.cc(227)] Accessibility event: layoutComplete on node id 1
+I/chromium( 5304): id=1 rootWebArea FOCUSABLE READONLY VERTICAL (0, 0)-(331, 523) scroll_x=0 scroll_y=0 scroll_x_min=0 scroll_y_min=0 scroll_x_max=0 scroll_y_max=112 value= url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> html_tag=#document doc_title= doc_url=data:text/html,<html><head><style type="text/css">body {font-size: smaller;}</style></head><body><b>1.1.2</b><ul><li>Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this).</li><li>OpenSudoku is now installed on SD card by default.</li></ul><b>1.1.1</b><ul><li>Android 2.2 - move application to SD card support.</li><li>Fixes few bugs reported via new Android 2.2 "Report" button.</li><li>Few visual tweaks for Nexus One.</li><li>"Fill in notes" menu item can now be enabled in game settings.</li></ul><b>1.1.0</b><ul><li>Italian translation (thanks to diego.pierotto)</li><li>Few visual tweaks (thicker lines, some changes in Paper themes)</li><li>New game helper - shows how many times number has been used (thanks to Todd Southen)</li><li>Fixed bugs:  <ul>    <li>QVGA - Screen is sometimes shifted down (issue #82)</li>    <li>Undo should be disabled for a completed puzzle (issue #84)</li>    <li>List of games does not update (issue #73) </li>    <li>Other small fixes</li>  </ul></li></ul></body></html> doc_mimetype=text/html name= doc_progress=1 doc_loaded=true child_ids=5,6,7,8,9,10
+I/chromium( 5304):   id=5 group READONLY (8, 8)-(315, 15) value= name= child_ids=12
+I/chromium( 5304):     id=12 staticText READONLY (8, 8)-(30, 15) value=1.1.2 display=inline name=
+I/chromium( 5304):   id=6 list READONLY (8, 36)-(315, 76) value= display=block html_tag=ul name= child_ids=13,14
+I/chromium( 5304):     id=13 listItem READONLY (48, 36)-(275, 46) value= display=list-item html_tag=li name= child_ids=15,16
+I/chromium( 5304):       id=15 listMarker READONLY VERTICAL (33, 36)-(6, 16) value=• name=
+I/chromium( 5304):       id=16 staticText READONLY (48, 36)-(273, 46) value=Manual import of puzzles from SD card - just press Menu and select Import (thanks to dracul for this). display=list-item name=
+I/chromium( 5304):     id=14 listItem READONLY (48, 81)-(275, 31) value= display=list-item html_tag=li name= child_ids=17,18
+I/chromium( 5304):       id=17 listMarker READONLY VERTICAL (33, 81)-(6, 16) value=• name=
+I/chromium( 5304):       id=18 staticText READONLY (48, 81)-(250, 31) value=OpenSudoku is now installed on SD card by default. display=list-item name=
+I/chromium( 5304):   id=7 group READONLY (8, 124)-(315, 16) value= name= child_ids=20
+I/chromium( 5304):     id=20 staticText READONLY (8, 124)-(30, 16) value=1.1.1 display=inline name=
+I/chromium( 5304):   id=8 list READONLY (8, 152)-(315, 106) value= display=block html_tag=ul name= child_ids=21,22,23,24
+I/chromium( 5304):     id=21 listItem READONLY (48, 152)-(275, 31) value= display=list-item html_tag=li name= child_ids=25,26
+I/chromium( 5304):       id=25 listMarker READONLY VERTICAL (33, 152)-(6, 16) value=• name=
+I/chromium( 5304):       id=26 staticText READONLY (48, 152)-(239, 31) value=Android 2.2 - move application to SD card support. display=list-item name=
+I/chromium( 5304):     id=22 listItem READONLY (48, 182)-(275, 31) value= display=list-item html_tag=li name= chil
+I/AccessibilityNodeInfoDumper( 4301): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@82e8; boundsInParent: Rect(40, 90 - 275, 106); boundsInScreen: Rect(311, 1791 - 1016, 1839); packageName: cz.romario.opensudoku; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: ; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; actions: [AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_HTML_ELEMENT - null, AccessibilityAction: ACTION_PREVIOUS_HTML_ELEMENT - null]

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphEvent eventCount="5">
+  <OmitMatch />
+  <Typed />
+  <Classitem>
+    <ID id="0">
+      <similarActivities />
+      <Classname>this is the path root</Classname>
+    </ID>
+    <ID id="1">
+      <Classname>cz.romario.opensudoku/.gui.FolderListActivity</Classname>
+      <Easyoperate>
+        <runableID id="1">
+          <viewclass>android.webkit.WebView</viewclass>
+          <contentext>Web View</contentext>
+          <viewtext />
+          <androidid>
+            <ownid />
+            <ownText />
+          </androidid>
+          <xposition>386</xposition>
+          <yposition>617</yposition>
+          <index>1</index>
+          <clicktype>short</clicktype>
+          <contentextnlp>
+            <ID0>web</ID0>
+            <ID1>view</ID1>
+          </contentextnlp>
+          <viewtextnlp />
+        </runableID>
+        <runableID id="2">
+          <viewclass>android.widget.Button</viewclass>
+          <viewtext>Close</viewtext>
+          <androidid>
+            <ownid>android:id/button1</ownid>
+            <ownText>android:id/button1</ownText>
+          </androidid>
+          <xposition>385</xposition>
+          <yposition>1094</yposition>
+          <index>2</index>
+          <clicktype>short</clicktype>
+          <viewtextnlp>
+            <ID0>close</ID0>
+          </viewtextnlp>
+        </runableID>
+      </Easyoperate>
+      <similarActivities>1</similarActivities>
+    </ID>
+  </Classitem>
+  <Path RunGo="0" RunGodelay="false" currentclassid="0" NlpMh="false" nextclassname="1">
+    <subpath subid="1" RunGo="-1" NlpMh="false" RunGodelay="false" currentclassid="1" unExe="0" />
+    <subpath subid="2" RunGo="-1" NlpMh="false" RunGodelay="false" currentclassid="1" unExe="0" />
+  </Path>
+  <Menu />
+  <Match>
+    <unExeInfo ID="0" />
+  </Match>
+  <Rule4 />
+</GraphEvent>

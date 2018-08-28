@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Result>
+  <Step1>
+    <Classname>DataDetailActivity</Classname>
+    <Viewgroup>
+      <viewID1>
+        <viewclass>android.widget.Spinner</viewclass>
+        <subclass>
+          <ID1 id="1">
+            <childviewclass>android.widget.CheckedTextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>Default Car</viewtext>
+          </ID1>
+        </subclass>
+      </viewID1>
+      <viewID2>
+        <viewclass>android.widget.LinearLayout</viewclass>
+        <subclass>
+          <ID1 id="1">
+            <childviewclass>android.widget.ImageView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>not a TextView</viewtext>
+          </ID1>
+          <ID1 id="1">
+            <childviewclass>android.widget.ImageView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>not a TextView</viewtext>
+          </ID1>
+          <ID2 id="2">
+            <childviewclass>android.widget.TextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>Add refueling</viewtext>
+          </ID2>
+          <ID2 id="2">
+            <childviewclass>android.widget.TextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext />
+          </ID2>
+        </subclass>
+      </viewID2>
+    </Viewgroup>
+    <Nogroup>
+      <ID1 id="1">
+        <viewclass>android.widget.TextView</viewclass>
+        <androidid>
+          <ancestors0>
+            <index>0</index>
+          </ancestors0>
+          <ancestors1>
+            <fatherid>2131361792</fatherid>
+            <index>0</index>
+            <fatherstring>me.kuehle.carreport:id/detail</fatherstring>
+          </ancestors1>
+        </androidid>
+        <viewtext>Refueling</viewtext>
+        <clicktype>short</clicktype>
+      </ID1>
+      <ID2 id="2">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361810</ownid>
+          <owntext>me.kuehle.carreport:id/edtDate</owntext>
+        </androidid>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>8/24/2017</ID0>
+            <ID1>2:32 PM</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext>8/24/2017</viewtext>
+        <focusable>false</focusable>
+      </ID2>
+      <ID3 id="3">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361811</ownid>
+          <owntext>me.kuehle.carreport:id/edtTime</owntext>
+        </androidid>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>8/24/2017</ID0>
+            <ID1>2:32 PM</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext>2:32 PM</viewtext>
+        <focusable>false</focusable>
+      </ID3>
+      <ID4 id="4">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361812</ownid>
+          <owntext>me.kuehle.carreport:id/edtMileage</owntext>
+        </androidid>
+        <hint>Mileage</hint>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>km</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID4>
+      <ID5 id="5">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361819</ownid>
+          <owntext>me.kuehle.carreport:id/edtVolume</owntext>
+        </androidid>
+        <hint>Volume</hint>
+        <edittype>digit</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>l</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID5>
+      <ID6 id="6">
+        <viewclass>android.widget.CheckBox</viewclass>
+        <androidid>
+          <ownid>2131361821</ownid>
+          <owntext>me.kuehle.carreport:id/chkPartial</owntext>
+        </androidid>
+        <viewtext>Partial</viewtext>
+        <clicktype>short</clicktype>
+      </ID6>
+      <ID7 id="7">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361814</ownid>
+          <owntext>me.kuehle.carreport:id/edtPrice</owntext>
+        </androidid>
+        <hint>Price</hint>
+        <edittype>digit</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>EUR</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID7>
+      <ID8 id="8">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361817</ownid>
+          <owntext>me.kuehle.carreport:id/edtNote</owntext>
+        </androidid>
+        <hint>Note (optional)</hint>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level1>
+          <level2 />
+          <level3>
+            <ID0>Refueling</ID0>
+          </level3>
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID8>
+      <ID9 id="9">
+        <viewclass>com.android.internal.view.menu.ActionMenuItemView</viewclass>
+        <androidid>
+          <ownid>2131361827</ownid>
+          <owntext>me.kuehle.carreport:id/menu_cancel</owntext>
+        </androidid>
+        <content>Cancel</content>
+        <viewtext />
+        <clicktype>short</clicktype>
+      </ID9>
+      <ID10 id="10">
+        <viewclass>com.android.internal.view.menu.ActionMenuItemView</viewclass>
+        <androidid>
+          <ownid>2131361828</ownid>
+          <owntext>me.kuehle.carreport:id/menu_save</owntext>
+        </androidid>
+        <content>Done</content>
+        <viewtext />
+        <clicktype>short</clicktype>
+      </ID10>
+    </Nogroup>
+    <Easyoperate>
+      <runableID id="1">
+        <motherviewclass>android.widget.Spinner</motherviewclass>
+        <listindex>1</listindex>
+        <childviewclass>android.widget.CheckedTextView</childviewclass>
+        <viewtext>Default Car</viewtext>
+        <clicktype>short</clicktype>
+      </runableID>
+      <runableID id="2">
+        <motherviewclass>android.widget.LinearLayout</motherviewclass>
+        <listindex>1</listindex>
+        <childviewclass>android.widget.ImageView</childviewclass>
+        <viewtext>not a TextView</viewtext>
+        <clicktype>short</clicktype>
+      </runableID>
+      <runableID id="3">
+        <motherviewclass>android.widget.LinearLayout</motherviewclass>
+        <listindex>2</listindex>
+        <childviewclass>android.widget.TextView</childviewclass>
+        <viewtext>Add refueling</viewtext>
+        <clicktype>short</clicktype>
+        <childviewclass>android.widget.TextView</childviewclass>
+        <viewtext />
+      </runableID>
+    </Easyoperate>
+    <Alltext>
+      <ID1>Refueling</ID1>
+      <ID2>8/24/2017</ID2>
+      <ID3>2:32 PM</ID3>
+      <ID4>km</ID4>
+      <ID5>l</ID5>
+      <ID6>Partial</ID6>
+      <ID7>EUR</ID7>
+      <ID8>Note</ID8>
+      <ID9>Car</ID9>
+      <ID10>Default Car</ID10>
+      <ID11>Add refueling</ID11>
+    </Alltext>
+  </Step1>
+  <Step1>
+    <Classname>DataDetailActivity</Classname>
+    <Viewgroup>
+      <viewID1>
+        <viewclass>android.widget.Spinner</viewclass>
+        <subclass>
+          <ID1 id="1">
+            <childviewclass>android.widget.CheckedTextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>Default Car</viewtext>
+          </ID1>
+        </subclass>
+      </viewID1>
+      <viewID2>
+        <viewclass>android.widget.LinearLayout</viewclass>
+        <subclass>
+          <ID1 id="1">
+            <childviewclass>android.widget.ImageView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>not a TextView</viewtext>
+          </ID1>
+          <ID1 id="1">
+            <childviewclass>android.widget.ImageView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>not a TextView</viewtext>
+          </ID1>
+          <ID2 id="2">
+            <childviewclass>android.widget.TextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext>Add refueling</viewtext>
+          </ID2>
+          <ID2 id="2">
+            <childviewclass>android.widget.TextView</childviewclass>
+            <clicktype>short</clicktype>
+            <viewtext />
+          </ID2>
+        </subclass>
+      </viewID2>
+    </Viewgroup>
+    <Nogroup>
+      <ID1 id="1">
+        <viewclass>android.widget.TextView</viewclass>
+        <androidid>
+          <ancestors0>
+            <index>0</index>
+          </ancestors0>
+          <ancestors1>
+            <fatherid>2131361792</fatherid>
+            <index>0</index>
+            <fatherstring>me.kuehle.carreport:id/detail</fatherstring>
+          </ancestors1>
+        </androidid>
+        <viewtext>Refueling</viewtext>
+        <clicktype>short</clicktype>
+      </ID1>
+      <ID2 id="2">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361810</ownid>
+          <owntext>me.kuehle.carreport:id/edtDate</owntext>
+        </androidid>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>8/24/2017</ID0>
+            <ID1>2:32 PM</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext>8/24/2017</viewtext>
+        <focusable>false</focusable>
+      </ID2>
+      <ID3 id="3">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361811</ownid>
+          <owntext>me.kuehle.carreport:id/edtTime</owntext>
+        </androidid>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>8/24/2017</ID0>
+            <ID1>2:32 PM</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext>2:32 PM</viewtext>
+        <focusable>false</focusable>
+      </ID3>
+      <ID4 id="4">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361812</ownid>
+          <owntext>me.kuehle.carreport:id/edtMileage</owntext>
+        </androidid>
+        <hint>Mileage</hint>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>km</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID4>
+      <ID5 id="5">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361819</ownid>
+          <owntext>me.kuehle.carreport:id/edtVolume</owntext>
+        </androidid>
+        <hint>Volume</hint>
+        <edittype>digit</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>l</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID5>
+      <ID6 id="6">
+        <viewclass>android.widget.CheckBox</viewclass>
+        <androidid>
+          <ownid>2131361821</ownid>
+          <owntext>me.kuehle.carreport:id/chkPartial</owntext>
+        </androidid>
+        <viewtext>Partial</viewtext>
+        <clicktype>short</clicktype>
+      </ID6>
+      <ID7 id="7">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361814</ownid>
+          <owntext>me.kuehle.carreport:id/edtPrice</owntext>
+        </androidid>
+        <hint>Price</hint>
+        <edittype>digit</edittype>
+        <adjacyText>
+          <level1>
+            <ID0 />
+            <ID1>EUR</ID1>
+          </level1>
+          <level2>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level2>
+          <level3 />
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID7>
+      <ID8 id="8">
+        <viewclass>android.widget.EditText</viewclass>
+        <androidid>
+          <ownid>2131361817</ownid>
+          <owntext>me.kuehle.carreport:id/edtNote</owntext>
+        </androidid>
+        <hint>Note (optional)</hint>
+        <edittype>string</edittype>
+        <adjacyText>
+          <level1>
+            <ID0>Partial</ID0>
+            <ID1>Note</ID1>
+            <ID2 />
+            <ID3>Car</ID3>
+          </level1>
+          <level2 />
+          <level3>
+            <ID0>Refueling</ID0>
+          </level3>
+        </adjacyText>
+        <viewtext />
+        <focusable>true</focusable>
+      </ID8>
+      <ID9 id="9">
+        <viewclass>com.android.internal.view.menu.ActionMenuItemView</viewclass>
+        <androidid>
+          <ownid>2131361827</ownid>
+          <owntext>me.kuehle.carreport:id/menu_cancel</owntext>
+        </androidid>
+        <content>Cancel</content>
+        <viewtext />
+        <clicktype>short</clicktype>
+      </ID9>
+      <ID10 id="10">
+        <viewclass>com.android.internal.view.menu.ActionMenuItemView</viewclass>
+        <androidid>
+          <ownid>2131361828</ownid>
+          <owntext>me.kuehle.carreport:id/menu_save</owntext>
+        </androidid>
+        <content>Done</content>
+        <viewtext />
+        <clicktype>short</clicktype>
+      </ID10>
+    </Nogroup>
+    <Easyoperate>
+      <runableID id="1">
+        <motherviewclass>android.widget.Spinner</motherviewclass>
+        <listindex>1</listindex>
+        <childviewclass>android.widget.CheckedTextView</childviewclass>
+        <viewtext>Default Car</viewtext>
+        <clicktype>short</clicktype>
+      </runableID>
+      <runableID id="2">
+        <motherviewclass>android.widget.LinearLayout</motherviewclass>
+        <listindex>1</listindex>
+        <childviewclass>android.widget.ImageView</childviewclass>
+        <viewtext>not a TextView</viewtext>
+        <clicktype>short</clicktype>
+      </runableID>
+      <runableID id="3">
+        <motherviewclass>android.widget.LinearLayout</motherviewclass>
+        <listindex>2</listindex>
+        <childviewclass>android.widget.TextView</childviewclass>
+        <viewtext>Add refueling</viewtext>
+        <clicktype>short</clicktype>
+        <childviewclass>android.widget.TextView</childviewclass>
+        <viewtext />
+      </runableID>
+    </Easyoperate>
+    <Alltext>
+      <ID1>Refueling</ID1>
+      <ID2>8/24/2017</ID2>
+      <ID3>2:32 PM</ID3>
+      <ID4>km</ID4>
+      <ID5>l</ID5>
+      <ID6>Partial</ID6>
+      <ID7>EUR</ID7>
+      <ID8>Note</ID8>
+      <ID9>Car</ID9>
+      <ID10>Default Car</ID10>
+      <ID11>Add refueling</ID11>
+    </Alltext>
+  </Step1>
+</Result>

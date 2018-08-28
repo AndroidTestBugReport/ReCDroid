@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphEvent eventCount="0">
+  <OmitMatch />
+  <Typed />
+  <Classitem>
+    <ID id="0">
+      <similarActivities />
+      <Classname>this is the path root</Classname>
+    </ID>
+  </Classitem>
+  <Path RunGo="1" RunGodelay="false" currentclassid="0" NlpMh="false" />
+  <Menu />
+  <Match />
+  <Rule4 />
+</GraphEvent>
