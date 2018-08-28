@@ -3,14 +3,14 @@
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
 ## 1. Usage:
-### (1) Find all crashes
+### (1) Find all crashes. ReCDRoid tends to continually find other crashes after it triggers one.
 `Input`: An android bug report and related apk.
 
 `Exploration`: Using NLP to process bug report and BFS to seach crashs.
 
 `Output`: All test cases which can trigger crash.
 
-### (2) Find the specific crash
+### (2) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matchs the provided error message.
 `Input`: An android bug report, related apk, related error message.
 
 `Exploration`: Using NLP to process bug report and DFS to seach the specifc crash.
