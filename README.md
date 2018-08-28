@@ -72,3 +72,8 @@ You needs 5 steps to run this project on your computer.
 (4) download ReCDroid Robotium example project from Google file link(there is a 200MB word2vec library in it): https://drive.google.com/open?id=19iXoI_8QtQMKBheS8fHhABt7YCS3rayg
 
 (5) run ReCDroid with percerun_LibreNews.sh in the folder.
+
+### (4)Uiautomator version
+All of above is Robotium version which can support Android sdk lower than Android 6.0.
+If you want to use ReCDroid version equal or above Android 6.0, please download ReCDroid Uiautomator example project to run. Google file link: https://drive.google.com/open?id=1lMMvSGx3Of7C7RcqE98iAJotWFXOEt3T
+Related bug report link: https://github.com/ASU-CodeDevils/FlashCards/issues/13
