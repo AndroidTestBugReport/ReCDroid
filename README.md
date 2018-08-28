@@ -45,17 +45,17 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22:
 Output steps in run.xml: 
 
 ```
-<step id="1"><currentClass>1</currentClass><subId>1</subId><androidid><ownid>2131689606</ownid><ownText>app.librenews.io.librenews:id/startLibreNews</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+<step id="1"><currentClass>1</currentClass><subId>1</subId>...</step>
  
-<step id="2"><currentClass>2</currentClass><subId>5</subId><Actiontype>ClickList</Actiontype><Parameter>3</Parameter><clicktype>short</clicktype></step>
+<step id="2"><currentClass>2</currentClass><subId>5</subId>...</step>
 
-<step id="3"><currentClass>3</currentClass><subId>4</subId><Actiontype>ClickList</Actiontype><Parameter>2</Parameter><clicktype>short</clicktype></step>
+<step id="3"><currentClass>3</currentClass><subId>4</subId>...</step>
 
-<step id="4"><currentClass>4</currentClass><unExeID>1</unExeID><subID>1</subID><androidid><ownid>16908291</ownid><ownText>android:id/edit</ownText></androidid><Actiontype>EditText</Actiontype><typeWhat>xxyyzz</typeWhat></step>
+<step id="4"><currentClass>4</currentClass><subID>1</subID>...</step>
 
-<step id="5"><currentClass>4</currentClass><subId>3</subId><androidid><ownid>16908313</ownid><ownText>android:id/button1</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+<step id="5"><currentClass>4</currentClass><subId>3</subId>...</step>
 
-<step id="6"><currentClass>3</currentClass><subId>1</subId><androidid><ownid>2131689596</ownid><ownText>app.librenews.io.librenews:id/refresh_button</ownText></androidid><Actiontype>android.support.v7.widget.AppCompatButton</Actiontype><clicktype>short</clicktype></step>
+<step id="6"><currentClass>3</currentClass><subId>1</subId>...</step>
 ```
 
 There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be fixed in the future. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). Actiontype is the view type of the compontent. And there are some detailed parameters to active this action. 
