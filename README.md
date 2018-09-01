@@ -1,6 +1,8 @@
 # ReCDroid
 
 The ReCDRoid is an android project to reproduce android bugs from bug report.
+Youtube link: https://youtu.be/i0fQ58aUPa8 with bug report https://github.com/milesmcc/LibreNews-Android/issues/22
+
 
 ## 1. Usage:
 ### (1) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matchs the provided error message.
