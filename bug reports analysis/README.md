@@ -12,7 +12,9 @@ In github, we crawled 3,233 bug reports. There are 501 bug reports with crash an
 
 In google code, we crawled 7,666 bug reports. There are 312 bug reports with crash and reproduce steps.
 
-### How many key words in these 501 and 312 bug reports
+We only analysis 501 and 312 bug reports.
+
+### How many bug reports has action key words
 
 google code:
 
@@ -38,3 +40,23 @@ google code:
 
 
 github:
+- go 84
+- tap 11
+- choose 2
+- launch 11
+- press 9
+- pick 4
+- open 51
+- click 22
+- select 18
+- write 5
+- insert 2
+- add 40
+- set 52
+- enter 9
+- put 13
+- input 6
+- type 15
+- change 24
+- fill 1
+
