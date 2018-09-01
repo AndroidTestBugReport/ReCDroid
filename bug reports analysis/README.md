@@ -60,3 +60,55 @@ github:
 - change 24
 - fill 1
 
+## How many bug report has our nlp patterns
+
+google code:
+
+- CR2 1
+- CR3 18
+- CR1 40
+- CR6 1
+- CR7 13
+- CR4 47
+- CR5 0
+- TR14 36
+- TR11 0
+- TR10 0
+- TR13 41
+- TR12 0
+- TR9 1
+- TR8 1
+- TR1 25
+- TR3 1
+- TR2 6
+- TR5 9
+- TR4 8
+- TR7 1
+- TR6 1
+
+
+
+
+github: 
+
+- CR2 5
+- CR3 52
+- CR1 62
+- CR6 2
+- CR7 15
+- CR4 69
+- CR5 1
+- TR14 38
+- TR11 0
+- TR10 2
+- TR13 55
+- TR12 0
+- TR9 0
+- TR8 6
+- TR1 34
+- TR3 3
+- TR2 9
+- TR5 5
+- TR4 11
+- TR7 2
+- TR6 2
