@@ -3,12 +3,12 @@
 We have 7 click patterns, 14 type patterns and 2 other patterns in our nlp process.
 
 
-Example:
+`Example:`
 
-ID:	CR1  
+- ID:	CR1  
 
-description:obj of key word is a "click what"	
+- description:obj of key word is a "click what"	
 
-example:I click A
+- example:I click A
 
-result of example: A is "click what"
+- result of example: A is "click what"
