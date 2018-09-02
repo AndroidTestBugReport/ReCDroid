@@ -10,7 +10,7 @@
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlety.jpg">
 
-
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlekey.jpg">
 
 We have crawled android bug reports in first 50 pages of google and first 30 pages of github.
 
