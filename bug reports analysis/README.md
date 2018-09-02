@@ -1,17 +1,5 @@
 # Bug Report Analysis
 
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
-
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitkey.jpg">
-
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitty.jpg">
-
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
-
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlety.jpg">
-
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlekey.jpg">
-
 We have crawled android bug reports in first 50 pages of google and first 30 pages of github.
 
 Based on them, we summarized our nlp pattern.
@@ -27,6 +15,38 @@ In google code, we crawled 7,666 bug reports. There are 312 bug reports with cra
 We only analysis 501 and 312 bug reports.
 
 ### How many bug reports has action key words
+
+google code:
+
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlekey.jpg">
+
+
+
+
+
+github:
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitkey.jpg">
+
+
+
+## How many bug report has our nlp patterns
+
+google code:
+
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
+
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlety.jpg">
+
+
+github:
+
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
+
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitty.jpg">
+
+
+
+# Data in the figure:
 
 google code:
 
@@ -50,8 +70,8 @@ google code:
 - change 9
 - fill 2
 
-
 github:
+
 - go 84
 - tap 11
 - choose 2
@@ -72,7 +92,10 @@ github:
 - change 24
 - fill 1
 
-## How many bug report has our nlp patterns
+
+
+
+
 
 google code:
 
