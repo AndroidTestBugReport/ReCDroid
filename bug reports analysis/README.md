@@ -2,6 +2,9 @@
 
 ![](https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/gitcl.jpg | width=100)
 
+<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/gitcl.jpg">
+
+
 We have crawled android bug reports in first 50 pages of google and first 30 pages of github.
 
 Based on them, we summarized our nlp pattern.
