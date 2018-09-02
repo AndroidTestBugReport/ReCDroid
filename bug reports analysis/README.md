@@ -1,6 +1,6 @@
 # Bug Report Analysis
 
-![image-w10](https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/gitcl.jpg){height="100" width="100"}
+![image-w10](https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/gitcl.jpg =100*20)
 
 We have crawled android bug reports in first 50 pages of google and first 30 pages of github.
 
