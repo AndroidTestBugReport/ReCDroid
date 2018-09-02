@@ -35,9 +35,9 @@ ruby run_stoat_testing.rb --apps_dir /home/XX/test_apps/ --apps_list /home/XX/te
 
 ## 3.error message with bug ID.docx
 
-Some bug reports are not have error message online.
+Some bug reports do not have error message online.
 
-We mannually trigger the bug based on the description of bug reports and record at there.
+We manually trigger the bug based on the description of bug reports and record at there.
 
 ReCDroid and other tools should trigger a bug with the same error message.
 
@@ -45,13 +45,13 @@ ReCDroid and other tools should trigger a bug with the same error message.
 
 We record the bug reports link in this file.
 
-We also describe the fail reason when ReCDroid fail to reproduce some of them in this file.
+We also describe the fail reason when ReCDroid fails to reproduce some of them in this file.
 
 ## 5.userStudyGithub.xlsx
 
-We invite 12 users to mannully reproduce these bug reports and record the time(s).
+We invite 12 users to manually reproduce these bug reports and record the time(s).
 
-Every users have 1800(s) as time limit. If a user can not reproduce the bug report when time is up, we record as Nan.
+Every user has 1800(s) as the time limit. If a user can not reproduce a bug report when the time is up, we record the time as "Nan".
 
 These 12 users include 5 common users, 4 developers, 3 experts of android.
 
