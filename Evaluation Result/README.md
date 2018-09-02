@@ -1,5 +1,20 @@
-In the
+# Evaluation Result
 
+In the evaluation result, we test 51 bug reports by ReCDroid.
+
+There are 1 folder and 4 files in this folder.
+
+## apk
+
+There are apks of 51 bug reports under test.
+
+Collecting these apks costs lots of mannual work.
+
+## compare with monkey-stoat-sap.xlsx
+
+We compare our ReCDroid to some existing methods as monkey, stoat amd sapinez.
+
+The run parameters of four tools as follow:
 
 - sapinez
 
