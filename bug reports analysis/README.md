@@ -8,7 +8,7 @@
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
 
-<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlety.jpg">
 
 
 
