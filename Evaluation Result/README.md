@@ -11,5 +11,6 @@ stoat
 ruby run_stoat_testing.rb --apps_dir /home/XX/test_apps/ --apps_list /home/XX/test_apps/apps_list.txt --avd_name testAVD_1 --avd_port 5554 --stoat_port 2000 --project_type apk --force_restart 
 
 ReCDroid
-./percerun_acv.sh
+./percerun_LibreNews.sh
+
 
