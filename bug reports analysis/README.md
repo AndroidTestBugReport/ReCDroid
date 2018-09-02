@@ -16,27 +16,6 @@ We only analysis 501 and 312 bug reports.
 
 ### How many bug reports has action key words
 
-1.go 
-2.tap 
-3.choose 
-4.launch 
-5.press 
-6.pick 
-7.open 
-8.click 
-9.select 
-10.write 
-11.insert 
-12.add 
-13.set 
-14.enter 
-15.put 
-16.input 
-17.type 
-18.change 
-19.fill 
-
-
 google code:
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlekey.jpg">
@@ -68,7 +47,28 @@ github:
 
 
 
-## Data in the figure:
+## Data in figures:
+
+1.go 
+2.tap 
+3.choose 
+4.launch 
+5.press 
+6.pick 
+7.open 
+8.click 
+9.select 
+10.write 
+11.insert 
+12.add 
+13.set 
+14.enter 
+15.put 
+16.input 
+17.type 
+18.change 
+19.fill 
+
 
 google code:
 
