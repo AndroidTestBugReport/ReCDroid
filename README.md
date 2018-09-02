@@ -6,10 +6,10 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 
 
 ## 1. Usage:
-### (1) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matchs the provided error message.
+### (1) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matches the provided error message.
 `Input`: An android bug report, related apk, related error message.
 
-`Exploration`: Using NLP to process bug report and DFS to seach the specifc crash.
+`Exploration`: Using NLP to process bug report and DFS to search the specific crash.
 
 `Output`: A test case which can trigger crash with the input error message.
 
@@ -17,7 +17,7 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 ### (2) Find all crashes. ReCDRoid tends to continually find other crashes after it triggers one.
 `Input`: An android bug report and related apk.
 
-`Exploration`: Using NLP to process bug report and BFS to seach crashs.
+`Exploration`: Using NLP to process bug report and BFS to search crashs.
 
 `Output`: All test cases which can trigger crash.
 
@@ -61,10 +61,10 @@ Output steps in run.xml:
 <step id="6"><currentClass>3</currentClass><subId>1</subId>...</step>
 ```
 
-There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I am apologize for the name disunion. It will be updated in the next version. Every papge has some UI components, so the subID is the compontent ID in this page. The detailed information of UI compoents can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
+There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the compontent ID in this page. The detailed information of UI components can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
 
 ### (3)Quick start example project
-You needs 5 steps to run this project on your computer.
+You need 5 steps to run this project on your computer.
 
 (1) Install android environment.
 
