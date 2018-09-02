@@ -1,14 +1,14 @@
 # Bug Report Analysis
 
-<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
 
-<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitkey.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitkey.jpg">
 
-<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitty.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitty.jpg">
 
-<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
 
-<img width="200" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
+<img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
 
 
 
