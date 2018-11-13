@@ -2,11 +2,8 @@
 
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
-`Quick demo:` 
-
-`Exploration:` https://youtu.be/i0fQ58aUPa8 with bug report https://github.com/milesmcc/LibreNews-Android/issues/22
-
-`Result:` https://youtu.be/WVtp-Ld4WF0              
+`Quick demo:`  https://youtu.be/i0fQ58aUPa8 and https://youtu.be/WVtp-Ld4WF0 with bug report https://github.com/milesmcc/LibreNews-Android/issues/22
+           
 
 
 ## 1. Usage:
