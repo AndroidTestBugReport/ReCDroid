@@ -13,7 +13,9 @@ Collecting these apks costs lots of mannual work.
 ## 2.compare with monkey-stoat-sap.xlsx
 
 We compare our ReCDroid to some existing methods as monkey, stoat amd sapinez.
-[Stoat](t](https://github.com/tingsu/Stoat)  [S  [Sapienz](z](https://github.com/Rhapsod/sapienz)  [M  [Monkey](y](https://developer.android.com/studio/test/monkey)
+[Stoat](https://github.com/tingsu/Stoat)  
+[Sapienz](https://github.com/Rhapsod/sapienz)  
+[Monkey](https://developer.android.com/studio/test/monkey)
 
 The run parameters of four tools are as follow:
 
