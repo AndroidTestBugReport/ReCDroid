@@ -9,6 +9,7 @@ This is the artifact for the paper Tests from Traces:  ReCDroid: Automatically R
 Application Crashes from Bug Reports published at ICSE 2019. The aim is to:
 
 1.show how the ReCDroid tool introduced in the paper works and can be used for reproducing crash bug based on android bug reports, and
+
 2.reproduce the experiment used to evaluate it.
 
 Concretely, we rerun the the code snippets shown in Table II from the Section V.
