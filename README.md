@@ -6,9 +6,9 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
            
 ## 1. Artifact description:
 This is the artifact for the paper Tests from Traces:  ReCDroid: Automatically Reproducing Android
-Application Crashes from Bug Reports published at ISSTA 2019. The aim is to:
+Application Crashes from Bug Reports published at ICSE 2019. The aim is to:
 
-    show how the ReCDroid tool introduced in the paper works and can be used for reproducing crash bug based on android bug reports, and reproduce the experiment used to evaluate it.
+1.show how the ReCDroid tool introduced in the paper works and can be used for reproducing crash bug based on android bug reports, 2.reproduce the experiment used to evaluate it.
 
 Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
