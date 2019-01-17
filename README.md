@@ -82,7 +82,7 @@ In one bug report folder as `1.newsblur_s`.
 - Shell file: `percerun_newsblur.sh`. The Apk's package name and MainActivityName should be clarified in it.
 
 #### Output file
-- nlp result: `middleResults/nlp.xml`.
+- Nlp result: `middleResults/nlp.xml`.
 
 - Event flow graph after explore: `middleResults/record.xml`.
 
@@ -96,8 +96,6 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fello
 - Disable automatically refresh
 - Change server address to an invalid one, e.g., xxyyzz.
 - Click refresh.
-
-
 
 ### (1)Example video:
 
@@ -128,20 +126,7 @@ Output steps in run.xml:
 
 There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the compontent ID in this page. The detailed information of UI components can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
 
-### (3)Quick start example project
-You need 5 steps to run this project on your computer.
-
-(1) Install android environment.
-
-(2) Install gensim python environment.
-
-(3) open an android avd with port 5554 and android 4.4.2
-
-(4) download ReCDroid Robotium example project from Google file link(there is a 200MB word2vec library in it): https://drive.google.com/open?id=19iXoI_8QtQMKBheS8fHhABt7YCS3rayg
-
-(5) run ReCDroid with percerun_LibreNews.sh in the folder.
-
-### (4)Uiautomator version
+### (3)Uiautomator version
 All of above is Robotium version which can support Android sdk lower than Android 6.0.
 If you want to use ReCDroid version equal or above Android 6.0, please download ReCDroid Uiautomator example project to run. Google file link: https://drive.google.com/open?id=1lMMvSGx3Of7C7RcqE98iAJotWFXOEt3T
 Related bug report link: https://github.com/ASU-CodeDevils/FlashCards/issues/13
