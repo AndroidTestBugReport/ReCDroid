@@ -73,20 +73,20 @@ Actually, running Andtoid emulator in a virtualbox ubuntun system is not a good 
 In one bug report folder as `1.newsblur_s`.
 
 #### Input file
-- Bug report: `1.newsblur_s/nlpBugReport/percentbugreport`.
+- Bug report: `nlpBugReport/percentbugreport`.
 
-- Input apk: `1.newsblur_s/newsblur-v6.10_debug.apk`.
+- Input apk: `newsblur-v6.10_debug.apk`.
 
 - Robotium file: `BFS_androidtester.apk`. The Apk's package name and MainActivityName should be clarified in it before it is complie.
 
 - Shell file: `percerun_newsblur.sh`. The Apk's package name and MainActivityName should be clarified in it.
 
 #### Output file
-- nlp result: `1.newsblur_s/middleResults/nlp.xml`.
+- nlp result: `middleResults/nlp.xml`.
 
-- Event flow graph after explore: `1.newsblur_s/middleResults/record.xml`.
+- Event flow graph after explore: `middleResults/record.xml`.
 
-- Result script to reproduce bug: `run.xml`.
+- Result script to reproduce bug: `middleResults/run.xml`.
 
 ## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fellow:
