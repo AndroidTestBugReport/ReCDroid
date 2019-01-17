@@ -6,8 +6,8 @@
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
 Quick demo with bug report https://github.com/milesmcc/LibreNews-Android/issues/22: 
-- `Reproducing` https://youtu.be/i0fQ58aUPa8 
-- `Show Result` https://youtu.be/WVtp-Ld4WF0 
+- `Reproducing process` https://youtu.be/i0fQ58aUPa8 
+- `Reproducing result` https://youtu.be/WVtp-Ld4WF0 
            
 ## 1. Artifact description:
 This is the artifact for the paper Tests from Traces:  ReCDroid: Automatically Reproducing Android
@@ -51,7 +51,7 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
    cd 1.newsblur_s
 ```
 
-5. Run the reproducing program which is named with "percerun_`AppName`.sh"
+5. Run the reproducing process which is named with "percerun_`AppName`.sh"
 ```sh
    ./percerun_newsblur.sh
 ```
