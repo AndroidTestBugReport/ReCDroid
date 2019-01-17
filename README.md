@@ -8,16 +8,29 @@ The ReCDRoid is an android project to reproduce android bugs from bug report.
 This is the artifact for the paper Tests from Traces:  ReCDroid: Automatically Reproducing Android
 Application Crashes from Bug Reports published at ICSE 2019. The aim is to:
 
-1. show how the ReCDroid tool introduced in the paper works and can be used for reproducing crash bug based on android bug reports, and
-2. reproduce the experiment used to evaluate it.
+1. Show how the ReCDroid tool introduced in the paper works and can be used for reproducing Android bug in bug reports.
+2. Reproduce the experiment used to evaluate it.
 
 Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
 ### Pre-requirements
 
 - Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
-- Download [24 GB virtualbox image](https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing). The root password of the image is rec_uky.
-- Virtualbox(we use 5.1.38) import the downloaded virtualbox image.
+- Download [24 GB virtualbox image](https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing). The root password of the image is `rec_uky`.
+- Use Virtualbox(we use 5.1.38) to import the downloaded virtualbox image.
+
+### Run the artifact
+
+1. Open the virtualbox image.
+
+2. Start an android emulator.
+```sh
+   emulator -avd avd -wipe-data
+```
+3.
+
+
+
 
 
 ## 2. Usage:
