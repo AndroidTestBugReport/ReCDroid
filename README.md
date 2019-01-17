@@ -68,26 +68,27 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
 Actually, running Andtoid emulator in a virtualbox ubuntun system is not a good way to run artifact for these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). So the emulator in this virtualbox will be much slowwer than in the physical machine. Some emualtors of resource consuming android sdk versions have lanuch error as Android 7.0.0 or can not be totaly lanuched as Android 5.0.1 and 5.1.1. So as the result, only 25 bug reports can be run in this vritual box whereas our ReCDroid claims it can reproduce 33 bug reports in the paper. If you want to use ReCDroid to reproduce all of the 33 bug reports, you should prepare Ubuntu 16.04 physical machine to build environment with this [instruction](https://drive.google.com/file/d/1W2HUs_6YJ3gD6qAeEUieYApiLTdCjb3Y/view?usp=sharing). I believe the android environment may need hours(much longer than half hour) to build on a physical machine.
 
+###  Files Description:
 
-## 2. Usage:
-### (1) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matches the provided error message.
-`Input`: An android bug report, related apk, related error message.
+In one bug report folder as `1.newsblur_s`.
 
-`Exploration`: Using NLP to process bug report and DFS to search the specific crash.
+#### Input file
+- Bug report: `1.newsblur_s/nlpBugReport/percentbugreport`.
 
-`Output`: A test case which can trigger crash with the input error message.
+- Input apk: `1.newsblur_s/newsblur-v6.10_debug.apk`.
 
+- Robotium file: `BFS_androidtester.apk`. The Apk's package name and MainActivityName should be clarified in it before it is complie.
 
-### (2) Find all crashes. ReCDRoid tends to continually find other crashes after it triggers one.
-`Input`: An android bug report and related apk.
+- Shell file: `percerun_newsblur.sh`. The Apk's package name and MainActivityName should be clarified in it.
 
-`Exploration`: Using NLP to process bug report and BFS to search crashs.
+#### Output file
+- nlp result: `1.newsblur_s/middleResults/nlp.xml`.
 
-`Output`: All test cases which can trigger crash.
+- Event flow graph after explore: `1.newsblur_s/middleResults/record.xml`.
 
-ReCDRoid can run test cases of output.
+- Result script to reproduce bug: `run.xml`.
 
-## 3. Example:
+## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fellow:
 
 - Install v1.4 from FDroid.
