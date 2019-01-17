@@ -31,7 +31,7 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ```sh
    emulator -avd avd -wipe-data
 ```
-3. Enter the Artifact folder, in which we have 25 bug reports folder with App name on it.
+3. Enter the Artifact folder, in which we have 25 bug report folders with App name on it.
 ```sh
    cd ~/Artifact-Evaluation/1.worked-in-this-VM/Android-4.4.2
    ls
