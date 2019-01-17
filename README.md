@@ -70,7 +70,7 @@ Concretely, we rerun the code snippets shown in Table II from the Section V.
 
 Actually, running Android emulator in a VirtualBox ubuntu system is not a good way to run artifact for these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). The emulator in this VirtualBox will be much slower than in the physical machine. Some emulators of resource consuming android sdk versions have launch error as Android 7.0.0 or can not be totally launched as Android 5.0.1 and 5.1.1. So as the result, only 25 bug reports can be run in this VirtualBox whereas our ReCDroid claims it can reproduce 33 bug reports in the paper. If you want to use ReCDroid to reproduce all of the 33 bug reports, you should prepare Ubuntu 16.04 physical machine to build environment with this [instruction](https://drive.google.com/file/d/1W2HUs_6YJ3gD6qAeEUieYApiLTdCjb3Y/view?usp=sharing). I believe the android environment may need hours(much longer than half an hour) to build on a physical machine.
 
-If you see failure outputs when you run ReCDroid, please just omit them.
+If you see "failure" as middle outputs when you run ReCDroid, please just omit them.
 
 ###  Files Description as Input and Output:
 
