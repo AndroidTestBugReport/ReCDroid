@@ -1,4 +1,7 @@
 # ReCDroid
+===========
+[![MIT License](https://img.shields.io/github/license/xiaocong/uiautomator.svg)](http://opensource.org/licenses/MIT)
+
 
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
@@ -22,16 +25,16 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ### Run the artifact
 
 1. Open the virtualbox image.
-
-2. Start an android emulator.
+2. Start an android emulator. Wait(mins) until it is totally lanuched.
 ```sh
    emulator -avd avd -wipe-data
 ```
-3. Enter the Artifact folder.
+3. Enter the Artifact folder, in which we have 25 bug reports folder with App name on it.
 ```sh
    cd ~/Artifact-Evaluation/1.worked-in-this-VM/Android-4.4.2
    ls
 ```
+result:
 ```sh
 10.olam1_'_s            17.transistor_s     24.obdreader_s  6.acv_s
 11.olam_space_s         18.zom              26.odk          7.anymemo_deafult_s
@@ -41,6 +44,20 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 15.librenews_s          22.ventriloid_s     4.carreport_s
 16.smssync_s            23.news_s           5.opensudoku_s
 ```
+4. Enter one bug report folder like 1.newsblur_s.
+```sh
+   cd 1.newsblur_s
+```
+
+5. Run the exploration program which is named with "percerun_AppName.sh"
+```sh
+   ./percerun_newsblur.sh
+```
+In this step, ReCDRoid will explore the app based on the description of bug report. 
+Please wait until it shows "matchcrash" and "execution time".
+
+6. Run the result to show how to trigger the bug with "runCrash_AppName.sh ".
+
 
 
 
