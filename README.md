@@ -62,6 +62,7 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ```sh
    ./runCrash_newsblur.sh
 ```
+   After you watch the event sequence in this result, you can mannualy repeat them on the app. This event sequence can trigger a crash as described in the bug report.
 7. Close all of the terminals and emluator before you want to test another bug report.
 
 ### Toubleshooting
