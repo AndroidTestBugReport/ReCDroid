@@ -128,15 +128,11 @@ Output steps in run.xml:
 
 There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the compontent ID in this page. The detailed information of UI components can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
 
-### (3)Uiautomator version
-All of above is Robotium version which can support Android sdk lower than Android 6.0.
-If you want to use ReCDroid version equal or above Android 6.0, please download ReCDroid Uiautomator example project to run. Google file link: https://drive.google.com/open?id=1lMMvSGx3Of7C7RcqE98iAJotWFXOEt3T
-Related bug report link: https://github.com/ASU-CodeDevils/FlashCards/issues/13
-
 ## Contents in this github
 
 - Evaluation Result: We have more details evaluation results in it than in the paper. It also provide data set we used.
 - Bug report Analysis: We crawled android near 10000 bug reports and summarize some rules about nlp.
 - Nlp pattern: We use the summarized rules to build nlp pattern which can help us process bug reports.
-- Source code: All of source code used in the ReCDroid.
+- Source code: All of source code used in the ReCDroid. In the source code folder Robotium source code can support Android sdk lower than Android 6.0. The Uiautomator source code can support Android sdk higher and equal than Android 6.0.
+
 
