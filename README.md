@@ -27,7 +27,20 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ```sh
    emulator -avd avd -wipe-data
 ```
-3.
+3. Enter the Artifact folder.
+```sh
+   cd ~/Artifact-Evaluation/1.worked-in-this-VM/Android-4.4.2
+   ls
+```
+```sh
+10.olam1_'_s            17.transistor_s     24.obdreader_s  6.acv_s
+11.olam_space_s         18.zom              26.odk          7.anymemo_deafult_s
+12.fastadaper_s         19.Pix-Art-share_s  27.k-9_s        8.anymemo_menu_s
+13.librenews_refresh_s  1.newsblur_s        2.markor_s      9.nodepad_s
+14.librenews_back_s     20.Pix-Art_s        3.birthdroid_s
+15.librenews_s          22.ventriloid_s     4.carreport_s
+16.smssync_s            23.news_s           5.opensudoku_s
+```
 
 
 
