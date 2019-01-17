@@ -34,7 +34,7 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
    cd ~/Artifact-Evaluation/1.worked-in-this-VM/Android-4.4.2
    ls
 ```
-result:
+    result:
 ```sh
 10.olam1_'_s            17.transistor_s     24.obdreader_s  6.acv_s
 11.olam_space_s         18.zom              26.odk          7.anymemo_deafult_s
@@ -53,8 +53,8 @@ result:
 ```sh
    ./percerun_newsblur.sh
 ```
-In this step, ReCDRoid will explore the app and try to reproduce bug based on the description of bug report. 
-Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
+    In this step, ReCDRoid will explore the app and try to reproduce bug based on the description of bug report. 
+    Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
 
 6. Run the result to show how to trigger the bug with "runCrash_`AppName`.sh ".
 ```sh
