@@ -64,7 +64,9 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ```
 7. Close all of the terminals and emluator before you want to test another bug report.
 
+### Toubleshooting
 
+Actually, running Andtoid emulator in a virtualbox ubuntun system is not a good idea for these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). So the emulator in this virtualbox will be much slow than in the physical machine. Some emualtors of resource consuming android sdk version have lanuch error as Android 7.0.0 or can not be totaly lanuched as Android 5.0.1 and 5.1.1. So as the result, only 25 bug reports can be run in this vritual box whereas our ReCDroid claims it can reproduce 33 bug reports in the paper. If you want to use ReCDroid to reproduce all of the 33 bug reports, you should prepare Ubuntu 16.04 physical machine to build environment with this instruction.
 
 
 ## 2. Usage:
