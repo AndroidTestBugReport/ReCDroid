@@ -16,18 +16,18 @@ Application Crashes from Bug Reports published at ICSE 2019. The aim is to:
 1. Show how the ReCDroid introduced in the paper works and can be used for reproducing android bugs from bug report.
 2. Reproduce the experiment used to evaluate it.
 
-Concretely, we rerun the the code snippets shown in Table II from the Section V.
+Concretely, we rerun the code snippets shown in Table II from the Section V.
 
 ### Pre-requirements
 
-- Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
-- Download [24 GB virtualbox image](https://drive.google.com/file/d/1kKdHsa9TJEyU4pYyOQPyMzZqagWBcVSX/view?usp=sharing). The root password of the image is `rec_xxx`.
-- Use Virtualbox(we use 5.1.38) to import the virtualbox image.
+- Prepare a desktop computer with recommended configuration: 32GB memory, 8 kernels cpu, more than 50 GB free disk.
+- Download [24 GB VirtualBox image](https://drive.google.com/file/d/1kKdHsa9TJEyU4pYyOQPyMzZqagWBcVSX/view?usp=sharing). The root password of the image is `rec_xxx`.
+- Use VirtualBox(we use 5.1.38) to import the VirtualBox image.
 
 ### Run the artifact
 
 1. Open the virtualbox image.
-2. Start an android emulator. Wait(mins) until it is totally lanuched.
+2. Start an android emulator. Wait(mins) until it is totally launched.
 ```sh
    emulator -avd avd -wipe-data
 ```
@@ -62,13 +62,15 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 ```sh
    ./runCrash_newsblur.sh
 ```
-   After you watch the event sequence in this result, you can mannualy repeat them on the app. This event sequence can trigger a crash as described in the bug report.
+   After you watch the event sequence in this result, you can manualy repeat them on the app. This event sequence can trigger a crash as described in the bug report.
    
-7. Close all of the terminals and emluator before you want to test another bug report.
+7. Close all of the terminals and emulator before you want to test another bug report.
 
 ### Toubleshooting
 
-Actually, running Andtoid emulator in a virtualbox ubuntun system is not a good way to run artifact for these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). The emulator in this virtualbox will be much slowwer than in the physical machine. Some emualtors of resource consuming android sdk versions have lanuch error as Android 7.0.0 or can not be totaly lanuched as Android 5.0.1 and 5.1.1. So as the result, only 25 bug reports can be run in this vritual box whereas our ReCDroid claims it can reproduce 33 bug reports in the paper. If you want to use ReCDroid to reproduce all of the 33 bug reports, you should prepare Ubuntu 16.04 physical machine to build environment with this [instruction](https://drive.google.com/file/d/1W2HUs_6YJ3gD6qAeEUieYApiLTdCjb3Y/view?usp=sharing). I believe the android environment may need hours(much longer than half hour) to build on a physical machine.
+Actually, running Android emulator in a VirtualBox ubuntu system is not a good way to run artifact for these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). The emulator in this VirtualBox will be much slower than in the physical machine. Some emulators of resource consuming android sdk versions have launch error as Android 7.0.0 or can not be totally launched as Android 5.0.1 and 5.1.1. So as the result, only 25 bug reports can be run in this VirtualBox whereas our ReCDroid claims it can reproduce 33 bug reports in the paper. If you want to use ReCDroid to reproduce all of the 33 bug reports, you should prepare Ubuntu 16.04 physical machine to build environment with this [instruction](https://drive.google.com/file/d/1W2HUs_6YJ3gD6qAeEUieYApiLTdCjb3Y/view?usp=sharing). I believe the android environment may need hours(much longer than half an hour) to build on a physical machine.
+
+If you see failure outputs when you run ReCDroid, please just omit them.
 
 ###  Files Description as Input and Output:
 
@@ -126,13 +128,13 @@ Output steps in run.xml:
 <step id="6"><currentClass>3</currentClass><subId>1</subId>...</step>
 ```
 
-There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in android app. The detailed information of a papge can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the compontent ID in this page. The detailed information of UI components can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
+There are 6 steps for ReCDroid to trigger a bug. The `currentClass` here is a page in the Android app. The detailed information of a page can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the component ID in this page. The detailed information of UI components can also be found in the record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters as "..." to help tester knowing how to active this step.
 
 ## Contents in this github
 
-- Evaluation Result: We have more details evaluation results in it than in the paper. It also provide data set we used.
-- Bug report Analysis: We crawled android near 10000 bug reports and summarize some rules about nlp.
-- Nlp pattern: We use the summarized rules to build nlp pattern which can help us process bug reports.
-- Source code: All of source code used in the ReCDroid. In the source code folder Robotium source code can support Android sdk lower than Android 6.0. The Uiautomator source code can support Android sdk higher and equal than Android 6.0.
+- Evaluation Result: We have more details evaluation results in it than in the paper. It also provides apk data set we used.
+- Bug report Analysis: We crawled android near 10000 bug reports and summarize some rules about NLP.
+- Nlp pattern: We use the summarized rules to build NLP pattern which can help us process bug reports.
+- Source code: All of the source code used in the ReCDroid. In the source code folder, Robotium source code can support Android sdk lower than Android 6.0. The Uiautomator source code can support Android sdk higher and equal than Android 6.0.
 
 
