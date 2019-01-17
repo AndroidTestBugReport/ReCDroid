@@ -55,12 +55,11 @@ result:
 ```
 In this step, ReCDRoid will explore the app based on the description of bug report. 
 Please wait until it shows "matchcrash" and "execution time".
-
 6. Run the result to show how to trigger the bug with "runCrash_`AppName`.sh ".
 ```sh
    ./runCrash_newsblur.sh
 ```
-
+7. Close all of the terminals and emluator before you want to test another bug report.
 
 
 
