@@ -5,10 +5,9 @@
 
 The ReCDRoid is an android project to reproduce android bugs from bug report.
 
-Quick demo: 
+Quick demo with bug report https://github.com/milesmcc/LibreNews-Android/issues/22: 
 - `Reproducing` https://youtu.be/i0fQ58aUPa8 
 - `Show Result` https://youtu.be/WVtp-Ld4WF0 
-- with bug report https://github.com/milesmcc/LibreNews-Android/issues/22
            
 ## 1. Artifact description:
 This is the artifact for the paper Tests from Traces:  ReCDroid: Automatically Reproducing Android
