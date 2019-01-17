@@ -14,6 +14,16 @@ Application Crashes from Bug Reports published at ICSE 2019. The aim is to:
 
 Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
+### Pre-requirements
+
+Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
+Download our `virtual box image:`https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing.
+
+
+
+
+
+
 ## 2. Usage:
 ### (1) Find specific crash. ReCDRoid stops when it has triggered a specific crash which matches the provided error message.
 `Input`: An android bug report, related apk, related error message.
