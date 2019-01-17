@@ -20,7 +20,7 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
 - Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
 - Download [24 GB virtualbox image](https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing). The root password of the image is `rec_uky`.
-- Use Virtualbox(we use 5.1.38) to import the downloaded virtualbox image.
+- Use Virtualbox(we use 5.1.38) to import the virtualbox image.
 
 ### Run the artifact
 
