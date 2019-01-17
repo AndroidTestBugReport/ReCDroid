@@ -88,7 +88,7 @@ We use one bug report folder `1.newsblur_s/` as an example.
 
 - Event flow graph after explore: `middleResults/record.xml`.
 
-- Result script to reproduce bug: `middleResults/run.xml`.
+- Result script to trigger bug which has event sequence: `middleResults/run.xml`.
 
 ## 2. Example:
 A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22 as fellow:
@@ -132,3 +132,11 @@ There are 6 steps for ReCDroid to trigger a bug. CurrentClass here is a page in 
 All of above is Robotium version which can support Android sdk lower than Android 6.0.
 If you want to use ReCDroid version equal or above Android 6.0, please download ReCDroid Uiautomator example project to run. Google file link: https://drive.google.com/open?id=1lMMvSGx3Of7C7RcqE98iAJotWFXOEt3T
 Related bug report link: https://github.com/ASU-CodeDevils/FlashCards/issues/13
+
+## Contents in this github
+
+- Evaluation Result: We have more details evaluation results in it than in the paper. It also provide data set we used.
+- Bug report Analysis: We crawled android near 10000 bug reports and summarize some rules about nlp.
+- Nlp pattern: We use the summarized rules to build nlp pattern which can help us process bug reports.
+- Source code: All of source code used in the ReCDroid.
+
