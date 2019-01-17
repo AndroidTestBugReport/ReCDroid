@@ -57,7 +57,9 @@ In this step, ReCDRoid will explore the app based on the description of bug repo
 Please wait until it shows "matchcrash" and "execution time".
 
 6. Run the result to show how to trigger the bug with "runCrash_AppName.sh ".
-
+```sh
+   ./runCrash_newsblur.sh
+```
 
 
 
