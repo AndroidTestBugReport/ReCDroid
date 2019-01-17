@@ -16,12 +16,9 @@ Concretely, we rerun the the code snippets shown in Table II from the Section V.
 
 ### Pre-requirements
 
-Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
-Download our `virtual box image:`https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing.
-
-
-
-
+-Prepare an desktop coputer with recommended configuration: 32GB memory, 8 kenerls cpu, more than 50 GB free disk.
+-Download [24 GB virtualbox image](https://drive.google.com/file/d/1CZbJCm5AOiJuibw2PAr5fmFEa5kymd_K/view?usp=sharing)
+-Virtualbox(we use 5.1.38) import the downloaded virtualbox image.
 
 
 ## 2. Usage:
