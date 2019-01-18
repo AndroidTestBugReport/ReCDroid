@@ -55,13 +55,13 @@ Concretely, we rerun the code snippets shown in Table II from the Section V.
 ```sh
    ./percerun_newsblur.sh
 ```
-   In this step and on the emulator, ReCDRoid will explore the app and try to reproduce bug based on the description of bug report. The showing on emulator should be similar but not same to `Reproducing process video`(it is for another bug report). Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
+   In this step and on the emulator, ReCDRoid will explore the app and try to reproduce bug based on the description of bug report. The showing on emulator should be similar but not same to [`Reproducing process video`](https://youtu.be/i0fQ58aUPa8)(it is for another bug report). Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
 
 6. Run the reproducing result to show how to trigger the bug with "runCrash_`AppName`.sh ".
 ```sh
    ./runCrash_newsblur.sh
 ```
-   The showing on emulator should be similar but not same to `Reproducing result` video. After you watch the event sequence on the emulator showing, you can manually repeat them on the app. This event sequence can trigger a crash as described in the bug report.
+   The showing on emulator should be similar but not same to [`Reproducing result video`](https://youtu.be/WVtp-Ld4WF0) video(it is for another bug report). After you watch the event sequence on the emulator showing, you can manually repeat them on the app. This event sequence can trigger a crash as described in the bug report.
    
 7. Close all of the terminals and emulator before you want to test another bug report.
 
