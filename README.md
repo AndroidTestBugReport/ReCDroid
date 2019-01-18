@@ -74,6 +74,8 @@ If you see "failure" as middle outputs when you run ReCDroid, please just omit t
 
 This VirtualBox image has a default setting as occupying 15GB memory, 4 kernels cpu from physical machine. If your desktop runs this VirtualBox image very slowly, you may consider modifing its default setting as occupying fewer kernels cpu or lower memory.
 
+ReCDroid may fail to reproduce bugs from some bug reports in VirtualBox, but it should not be too many. It is because if the VituralBox image runs on poor hardware, the emulator may be very slow and the response time may be more than 3 seconds. If the response of clicking button event is longer than 3 seconds, ReCDroid will consider it is a bad button and never try it again. Then ReCDroid may never find the bug. Changing to a better hardware to run the image is a good choice.
+
 ###  Files Description as Input and Output:
 
 We use one bug report folder `1.newsblur_s/` as an example.
