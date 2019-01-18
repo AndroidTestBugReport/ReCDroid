@@ -72,6 +72,8 @@ Actually, running Android emulator in a VirtualBox ubuntu system is not a good w
 
 If you see "failure" as middle outputs when you run ReCDroid, please just omit them.
 
+This VirtualBox image has a default setting as occupying 15GB memory, 4 kernels cpu from physical machine. If your desktop runs this VirtualBox image very slowly, you may consider modifing its default setting as occupying fewer kernels cpu or lower memory.
+
 ###  Files Description as Input and Output:
 
 We use one bug report folder `1.newsblur_s/` as an example.
