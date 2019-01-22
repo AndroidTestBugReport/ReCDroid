@@ -1,4 +1,4 @@
-# ReCDroid Source code
+# ReCDroid Source Code
 RecDroid provides two versions to support different android SDK versions.
 
 If android sdk>=6.0, please use uiautomator version.
