@@ -1,45 +1,42 @@
 # Bug Report Analysis
 
-We have crawled android bug reports in first 50 pages of google and first 30 pages of github.
+We have crawled android bug reports in first 50 pages of google and first 30 pages of GitHub.
 
-Based on them, we summarized our nlp pattern.
+Based on them, we summarized the NLP patterns.
 
-The raw data set after we crawl is at google link: https://drive.google.com/open?id=11KwJdCdYfds63xUCWV5c1Mb1EhtfK1Lx
+The raw data set after crawling can be found at: https://drive.google.com/open?id=11KwJdCdYfds63xUCWV5c1Mb1EhtfK1Lx
 
-## Analysis result:
+## Analysis Results:
 
-In github, we crawled 3,233 bug reports. There are 501 bug reports with crash and reproduce steps.
+In GitHub, we crawled 3,233 bug reports. There are 501 bug reports with crash and reproducing steps.
 
-In google code, we crawled 7,666 bug reports. There are 312 bug reports with crash and reproduce steps.
+In google code, we crawled 7,666 bug reports. There are 312 bug reports with crash and reproducing steps.
 
-We only analysis 501 and 312 bug reports.
+Therefore, we analyzed 813 (501 + 312) bug reports in total.
 
 ### How many bug reports has action key words
 
-google code:
+Google Code:
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlekey.jpg">
 
 
-
-
-
-github:
+GitHub:
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitkey.jpg">
 
 
 
-## How many bug report has our nlp patterns
+## How many bug reports contain NLP grammar patterns
 
-google code:
+Google Code:
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlecl.jpg">
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/googlety.jpg">
 
 
-github:
+GitHub:
 
 <img width="400" alt="portfolio_view" src="https://github.com/AndroidTestBugReport/ReCDroid/blob/master/bug%20reports%20analysis/just%20figures/gitcl.jpg">
 
@@ -47,7 +44,7 @@ github:
 
 
 
-## Data in figures:
+## Data in the Figures:
 
 1.go 
 2.tap 
@@ -70,7 +67,7 @@ github:
 19.fill 
 
 
-google code:
+Google Code:
 
 - go 74
 - tap 4
@@ -119,7 +116,7 @@ github:
 
 
 
-google code:
+GitHub
 
 - CR2 1
 - CR3 18
