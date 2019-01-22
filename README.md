@@ -151,8 +151,8 @@ In the above example, there are 6 steps for ReCDroid to trigger a crash. The `cu
 ## Other Content Included in This Repository
 
 - Evaluation Results: We provide more detailed evaluation results besides those presented in the paper. We also provide the set of APKs used in the experiment. 
-- Bug Report Analysis: We crawled over 10000 Android bug reports and summarize 22 NLP grammar rules.
-- NLP Patterns: We use the summarized rules to build NLP patterns,  which can analyzing the bug reports.
-- Source Code: All source files of ReCDroid. In this folder, Robotium source code can support Android SDK lower than Android 6.0. The UIAutomator source code can support Android SDK higher than or equal to Android 6.0.
+- bug report analysis: We crawled over 10000 Android bug reports and summarize 22 NLP grammar rules.
+- nlp patterns: We use the summarized rules to build NLP patterns,  which can analyzing the bug reports.
+- source code: All source files of ReCDroid. In this folder, Robotium source code can support Android SDK lower than Android 6.0. The UIAutomator source code can support Android SDK higher than or equal to Android 6.0.
 
 
