@@ -34,7 +34,7 @@ The artifcat shows:
 ### Run RecDroid
 
 1. Open the virtualbox image.
-2. Start an android emulator. Wait(mins) until it is totally launched.
+2. Start an android emulator. Wait (for minutes) until it is totally launched.
 ```sh
    emulator -avd avd -wipe-data
 ```
@@ -62,13 +62,13 @@ The artifcat shows:
 ```sh
    ./percerun_newsblur.sh
 ```
-   In this step and on the emulator, ReCDRoid will explore the app and try to reproduce crashes based on the description of bug report. The display on the emulator should be similar but may not exactly the same as the [`Generate a reproducing script video`](https://youtu.be/i0fQ58aUPa8)(it is for another bug report). Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
+   In this step and on the emulator, ReCDRoid will explore the app and try to reproduce crashes based on the description of bug report. The display on the emulator should be similar but may not exactly the same as the [`Reproducing process video`](https://youtu.be/i0fQ58aUPa8) (it is for another bug report). Please wait until it shows "matchcrash" and "execution time". It may run more than 1 hour for some difficult bugs.
 
 6. Replay the reproducing script showing how to trigger the crash with "runCrash_`AppName`.sh ".
 ```sh
    ./runCrash_newsblur.sh
 ```
-   The display on the emulator should be similar but not exactly the same as [`Replay the reproducing sequence video`](https://youtu.be/WVtp-Ld4WF0) (it is for another bug report). After you observe the event sequence on the emulator, you can manually repeat it on the app. This event sequence can trigger a crash as described in the bug report.
+   The display on the emulator should be similar but not exactly the same as [`Reproducing result video`](https://youtu.be/WVtp-Ld4WF0) video (it is for another bug report). After you observe the event sequence on the emulator, you can manually repeat it on the app. This event sequence can trigger a crash as described in the bug report.
    
 7. Close all of the terminals and emulator before you want to test another bug report.
 
@@ -78,18 +78,18 @@ If you see a message "failure" as an intermediate output during the execution of
 
 This VirtualBox image has a default setting: 15GB memory, 4 kernels cpu. If your desktop runs this VirtualBox image very slowly, you may consider modifing its default setting to use fewer kernels cpu or less memory.
 
-ReCDroid may fail to reproduce crashes for some bug reports in VirtualBox, but it should not be too many. It is because if the VituralBox image runs on poor hardware, the emulator may be very slow and the response time for a click event may take more than 3 seconds, which exceeds the maximum response time specified by ReCDroid. In this case, ReCDroid will termintate the reproducing process. Users are suggested to move the VirtualBox image to a faster physical machine. 
+ReCDroid may fail to reproduce crashes for some bug reports in VirtualBox on a system with low-performance hardware. This is because if the VituralBox image runs on poor hardware, the emulator may be very slow and the response time for a click event may take more than 3 seconds, which exceeds the maximum response time specified by ReCDroid. In this case, ReCDroid will termintate the reproducing process. Users are suggested to either configure ReCDroid on the physical machine or move the VirtualBox image to a faster system. 
 
 ## Run ReCDroid on Physical Machine
 
-It is worth noting that running Android emulator in a VirtualBox ubuntu system is not ideal due to these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). The emulator in  VirtualBox is much slower than a physical machine. In addition, some emulators with resource consuming android SDK versions have launch error, such as Android 7.0.0, or can not be launched at all, such as Android 5.0.1 and 5.1.1. In our case, 25 out of 33 reproduced bug reports (presented in the paper) can be successfully run in VirtualBox. If you want to use ReCDroid to reproduce all 33 bug reports, you should prepare a Ubuntu 16.04 physical machine and build the execution environment following  this [instruction](https://drive.google.com/file/d/1cCYkYyc8XQlI81RCSMe3fx-E8AMFypWD/view?usp=sharing). 
+It is worth noting that running Android emulator in a VirtualBox ubuntu system is not ideal due to these [reasons](https://stackoverflow.com/questions/14971621/android-emulator-not-starting-in-a-virtualbox-ubuntu-instance). The emulator in  VirtualBox is much slower than a physical machine. In addition, some emulators with resource consuming android SDK versions may generate launch errors, such as Android 7.0.0, or can not be launched at all, such as Android 5.0.1 and 5.1.1. In our case, 25 out of 33 reproduced bug reports (presented in the paper) can be successfully run in VirtualBox. If you want to use ReCDroid to reproduce all 33 bug reports, you should prepare a Ubuntu 16.04 physical machine and build the execution environment following  this [instruction](https://drive.google.com/file/d/1cCYkYyc8XQlI81RCSMe3fx-E8AMFypWD/view?usp=sharing). 
 
 
-###  Description of Result Files Generated By ReCDroid:
+##  Description of Result Files Generated By ReCDroid:
 
 We use one bug report folder `1.newsblur_s/` as an example.
 
-#### Input file
+### Input file
 
 - Bug report: `nlpBugReport/percentbugreport`.
 
@@ -99,7 +99,7 @@ We use one bug report folder `1.newsblur_s/` as an example.
 
 - Shell file: `percerun_newsblur.sh`. The AAPKpk's package name and MainActivityName should be clarified in it.
 
-#### Output file
+### Output file
 
 - NLP result: `middleResults/nlp.xml`.
 
@@ -117,19 +117,20 @@ A bug report in https://github.com/milesmcc/LibreNews-Android/issues/22, whose d
 - Change server address to an invalid one, e.g., xxyyzz.
 - Click refresh.
 
-### (1)Example video:
+### Videos:
 
-`Exploration video`: example1-exploration.mkv
+`Exploration`: example1-exploration.mkv
 
 Youtube link: https://youtu.be/i0fQ58aUPa8
 
-`Reproduce video`: example2-runTestCase.mkv
+`Replay`: example2-runTestCase.mkv
 
 Youtube link: https://youtu.be/WVtp-Ld4WF0
 
-### (2)Output test cases:
 
-Output steps in run.xml: 
+###  Output Test Cases:
+
+Output steps in run.xml (i.e., reproducing script): 
 
 ```
 <step id="1"><currentClass>1</currentClass><subId>1</subId>...</step>
@@ -145,13 +146,13 @@ Output steps in run.xml:
 <step id="6"><currentClass>3</currentClass><subId>1</subId>...</step>
 ```
 
-There are 6 steps for ReCDroid to trigger a crash. The `currentClass` here is a page in the Android app. The detailed information of a page can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the name disunion. It will be updated in the next version. Every page has some UI components, so the subID is the component ID in this page. The detailed information of UI components can also be found in  record.xml with (subID in run.xml)=(runableID in record.xml). After subID, there are some detailed parameters such as "..." to help tester knowing how to active this step.
+In the above example, there are 6 steps for ReCDroid to trigger a crash. The `currentClass` is a page in the Android app. The detailed information of a page can be found in the record.xml file with (CurrentClass in run.xml)=(ID in record.xml). I apologize for the naming confusions. It will be updated in the next version. Every page has a list of UI components, so the subID is the component ID in this page. The detailed information of UI components can also be found in record.xml with (subID in run.xml)=(runableID in record.xml). Followed by subID, there are a few other parameters to help developers understand how to active this step.
 
-## Contents in this github
+## Other Content Included in This Repository
 
-- Evaluation Results: We provide more detailed evaluation results than those presented in the paper. We also provide the set of APKs used in the experiment. 
-- Bug Report Analysis: We crawled over 10000 Android bug reports and summarize 22 NLP  grammar rules.
-- NLP Patterns: We use the summarized rules to build NLP patterns which can help us process bug reports.
-- Source Code: All of the source code used in the ReCDroid. In the source code folder, Robotium source code can support Android SDK lower than Android 6.0. The UIAutomator source code can support Android SDK higher than and equal to Android 6.0.
+- Evaluation Results: We provide more detailed evaluation results besides those presented in the paper. We also provide the set of APKs used in the experiment. 
+- Bug Report Analysis: We crawled over 10000 Android bug reports and summarize 22 NLP grammar rules.
+- NLP Patterns: We use the summarized rules to build NLP patterns,  which can analyzing the bug reports.
+- Source Code: All source files of ReCDroid. In this folder, Robotium source code can support Android SDK lower than Android 6.0. The UIAutomator source code can support Android SDK higher than or equal to Android 6.0.
 
 
