@@ -1,30 +1,29 @@
 # Evaluation Result
 
-In the evaluation result, we test 51 bug reports by ReCDroid.
+In the evaluation result, we tested 51 bug reports using ReCDroid.
 
-There are 1 folder and 4 files in this folder.
+There are 1 folder and 4 files.
 
-## 1.apk
+## APKs
 
 There are apks of 51 bug reports under test.
 
-Collecting these apks costs lots of mannual work.
 
-## 2.compare with monkey-stoat-sap.xlsx
+## Comparison with Monkey, Stoat, and Sapienz  
 
-We compare our ReCDroid to some existing methods as [Monkey](https://developer.android.com/studio/test/monkey), [Stoat](https://github.com/tingsu/Stoat) amd [Sapienz](https://github.com/Rhapsod/sapienz).
+We compared  ReCDroid with three existing methods, including [Monkey](https://developer.android.com/studio/test/monkey), [Stoat](https://github.com/tingsu/Stoat), and [Sapienz](https://github.com/Rhapsod/sapienz).  The results can be found in `monkey-stoat-sap.xlsx`. 
 
-The run parameters of four tools are as follow:
+The execution parameters of the four tools are as follows:
 
-- sapinez
+- Sapinez
 
 timeout 2h python main.py $app_src_dir $avd_name $avd_serial &> $RESULTDIR$p/tool.log
 
-- mokey
+- Mokey
 
 timeout 2h adb -s $DEV_SERIAL shell monkey -p $package -v --throttle 200 --ignore-crashes --ignore-timeouts --ignore-security-exceptions --bugreport 1000000 > $OUTPUTDIR/monkey.log
 
-- stoat
+- Stoat
 
 ruby run_stoat_testing.rb --apps_dir /home/XX/test_apps/ --apps_list /home/XX/test_apps/apps_list.txt --avd_name testAVD_1 --avd_port 5554 --stoat_port 2000 --project_type apk --force_restart 
 
@@ -33,27 +32,19 @@ ruby run_stoat_testing.rb --apps_dir /home/XX/test_apps/ --apps_list /home/XX/te
 ./percerun_LibreNews.sh
 
 
-## 3.error message with bug ID.docx
+## Error Messages
 
-Some bug reports do not have error message online.
+The error messages are used to determine if certain crashes are triggered. The error messages are described in `ID.docx`
 
-We manually trigger the bug based on the description of bug reports and record at there.
 
-ReCDroid and other tools should trigger a bug with the same error message.
+## Evaluation DataSet
 
-## 4.evaluationDataSet.xlsx
+You can find the links to the used bug reports in `evaluationDataSet.xlsx`. This file also described the reason when ReCDroid fails to reproduce some of the crashes. 
 
-We record the bug reports link in this file.
 
-We also describe the fail reason when ReCDroid fails to reproduce some of them in this file.
+## User Study
 
-## 5.userStudyGithub.xlsx
-
-We invite 12 users to manually reproduce these bug reports and record the time(s).
-
-Every user has 1800(s) as the time limit. If a user can not reproduce a bug report when the time is up, we record the time as "Nan".
-
-These 12 users include 5 common users, 4 developers, 3 experts of android.
+Details on user study can be found in `userStudyGithub.xlsx`. 
 
 
 
