@@ -68,7 +68,7 @@ The artifcat shows:
 ```sh
    ./runCrash_newsblur.sh
 ```
-   The display on the emulator should be similar but not exactly the same as [`Replay the reproducing sequence video`](https://youtu.be/WVtp-Ld4WF0) video (it is for another bug report). After you observe the event sequence on the emulator, you can manually repeat it on the app. This event sequence can trigger a crash as described in the bug report.
+   The display on the emulator should be similar but not exactly the same as [`Replay the reproducing sequence video`](https://youtu.be/WVtp-Ld4WF0) (it is for another bug report). After you observe the event sequence on the emulator, you can manually repeat it on the app. This event sequence can trigger a crash as described in the bug report.
    
 7. Close all of the terminals and emulator before you want to test another bug report.
 
