@@ -28,7 +28,7 @@ The artifcat shows:
 ### Pre-requirements
 
 - Prepare a desktop computer with the following recommended configuration: 32GB memory, 8 kernels cpu, more than 50 GB free disk.
-- Download [24 GB VirtualBox image](https://drive.google.com/file/d/1kKdHsa9TJEyU4pYyOQPyMzZqagWBcVSX/view?usp=sharing). The root password of this image is `rec_xxx`.
+- Download [24 GB VirtualBox image](https://drive.google.com/file/d/1kKdHsa9TJEyU4pYyOQPyMzZqagWBcVSX/view?usp=sharing). The root password of this image is `rec_xxx`. There is a [Demo video](https://youtu.be/psBHG7LCi3w) for using VM.
 - Use VirtualBox(we use 5.1.38) to import the VirtualBox image.
 
 ### Run RecDroid
