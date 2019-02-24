@@ -1,6 +1,7 @@
 # ReCDroid
 
 [![MIT License](https://img.shields.io/github/license/xiaocong/uiautomator.svg)](http://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/145784057.svg)](https://zenodo.org/badge/latestdoi/145784057)
 
 
 ReCDRoid is software tool to automatically reproduce crashes from Android bug reports. 
