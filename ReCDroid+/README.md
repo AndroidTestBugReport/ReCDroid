@@ -1,10 +1,21 @@
-## ReCDroid+ is a journal extension for ReCDroid by adding S2R extraction and Crash identification.
+## ReCDroid+ is a journal extension for ReCDroid by adding step to reproduce (S2R) sentence extraction and Crash identification.
 
-This folder provides the source code and data set of S2R and Crash extraction.
+ReCDroid+ can input HTML bug report and output bug report in text format with sentence segmentation.
 
-Source code: https://drive.google.com/file/d/1VRH04LAkdBPbwJ39R5E5fc023pIbpZQe/view?usp=sharing
+By analysising the bug report in text format, ReCDroid+ identifies the crash sentence to verify whether the bug report is in its usage scope.
 
-Labeled bug report data set: https://drive.google.com/file/d/1wcPrjCFVlHzou_bPwjoaa1n5Hwvy9iJx/view?usp=sharing
+S2R sentences are extracted by a deep neural network model from the bug report. 
+
+The extracted S2R can be used to reproduce the crash by adding the original recdroid.
+
+
+- HTML2TXT Source code: https://drive.google.com/file/d/1G2AdwwX08fAOmEsE-DR0K6l7BfJRyee7/view?usp=sharing
+
+- S2R/Crash extraction Source code: https://drive.google.com/file/d/1VRH04LAkdBPbwJ39R5E5fc023pIbpZQe/view?usp=sharing
+
+- Labeled bug report data set: https://drive.google.com/file/d/1wcPrjCFVlHzou_bPwjoaa1n5Hwvy9iJx/view?usp=sharing
+
+2 people labeled the same data set. The third people revise the labeling and provide the finial decision.
 
 ## Bug report labeled format:
 
