@@ -9,8 +9,10 @@ Labeled bug report data set: https://drive.google.com/file/d/1wcPrjCFVlHzou_bPwj
 ## Bug report labeled format:
 
 - rules:
-  #step is tagged end of the S2R sentence
-  #oracle is tagged end of the crash sentence
+
+  #step is tagged at end of the S2R sentence
+
+  #oracle is tagged at end of the crash sentence
 
 - Example:
 
