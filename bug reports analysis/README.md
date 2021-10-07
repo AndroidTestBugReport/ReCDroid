@@ -4,7 +4,7 @@ We have crawled android bug reports in first 50 pages of google and first 30 pag
 
 Based on them, we summarized the NLP patterns.
 
-The raw data set after crawling can be found at: https://drive.google.com/open?id=11KwJdCdYfds63xUCWV5c1Mb1EhtfK1Lx
+The raw data set after crawling can be found at: https://drive.google.com/file/d/1G0ZJbEONlU2cM8TpapzM9y3nkNiaBfLy/view?usp=sharing
 
 ## Analysis Results:
 
